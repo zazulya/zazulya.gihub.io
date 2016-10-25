@@ -1,0 +1,10 @@
+/*font-family:Panton-Regular;*/
+@font-face {
+	font-family: "Panton";
+	src: url("../fonts/Panton-Regular.eot");
+	src: url("../fonts/Panton-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Panton-Regular.woff") format("woff"),
+		url("../fonts/Panton-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}

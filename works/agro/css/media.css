@@ -1,0 +1,187 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.search{
+		width: 300px;
+	}
+	.p_mnu li{
+		margin: 0 0 0 75px;
+	}
+	.footer_nav ul li{
+		margin-right: 71px;
+	}
+	.hc_visual{
+		margin: 0;
+	}
+	.number{
+		margin: 0 0 5px;
+	}
+	.c_serch_block{
+		width:auto;
+		text-align:left;
+		margin:15px 9px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.v_logo{
+		background: url(../img/logo_2.png) no-repeat;
+		width: 155px;
+		height: 97px;
+	}
+	.t_logo{
+		margin: 0 0 10px;
+	}
+	.hc_content strong{
+		margin: 0 0 10px;
+	}
+	.search{
+		width: 100%;
+	}
+	.header_wrap .banner{
+		padding: 0 0 10px 0;
+	}
+	.m_left .btn_grin,
+	.m_right .btn_grin,
+	.m_center .btn_grin{
+		width: 100%;
+		padding: 0 48px;
+	}
+	.footer_nav{
+		text-align: center;
+	}
+	.footer_nav ul li{
+		margin-right: 27px;
+	}
+	.footer_lang ul{
+		text-align: center;
+	}
+	.footer_lang ul li{
+		display: inline-block;
+		margin: 0 30px 10px 0;
+	}
+	.r_aside_ilustration:before{
+		left:170px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.m_visual{
+		display: none;
+	}
+	.m_map{
+		margin: 10px 0;
+	}
+	.m_map img{
+		margin: 0 auto;
+	}
+	.show_block_w{
+		display: none;
+	}
+	.t_b_opisanie{
+		display: table-row;
+	}
+	.ilustration{
+		display: table-row;
+		text-align: center;
+	}
+	.ilustration:before{
+		display: none;
+	}
+	.r_aside_ilustration:before{
+		display: none;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.v_logo{
+		display: none;
+	}
+	.t_logo{
+		background: url(../img/logo_text_3.png) no-repeat;
+		width: 269px;
+		height: 22px;
+	}
+	.p_mnu li{
+		margin: 0 0 0 22px;
+	}
+	.m_left,
+	.m_right{
+		float: none;
+	}
+	.m_left,
+	.m_right,
+	.m_center{
+		margin: 0 0 10px;
+	}
+	.footer_nav {
+		margin: 0 0 15px 0;
+		text-align: center;
+	}
+	.footer_nav ul li{
+		margin-right: 48px;
+	}
+	.footer_lang {
+    	margin: 0 0 10px;
+    }
+    .footer_lang ul li:first-child {
+    	margin-left: 136px;
+	}
+	.f_button{
+		margin: 0 0 10px;
+	}
+	.f_social{
+		text-align: center;
+		
+	}
+	.b_left{
+		float: none;
+		margin:5px auto;
+	}
+	.b_rigt{
+		float: none;
+		margin:0 auto;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.footer_lang ul li:first-child {
+    	margin-left: 65px;
+	}
+	.p_mnu li {
+    	margin: 0px 0 0 60px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

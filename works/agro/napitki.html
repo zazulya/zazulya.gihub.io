@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="UTF-8">
+		<title>Напитки</title>
+		<meta name="description" content="" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/media.css">
+	</head>
+		<body>
+			<header id="header">
+				<div class="container">
+					<div class="pa_header">
+						<div class="header_wrap">
+							<div class="row">
+								<div class="col-lg-9 col-md-8">
+									<div class="h_content">
+										<div class="hc_visual">
+											<a href="#" class="v_logo">Agropult</a>
+										</div>
+										<div class="hc_content">
+											<h1 class="t_logo hidden-md">Agropult</h1>
+											<strong class="hidden-md">Мы за свежесть и качество</strong>
+											<div class="search">
+												<form action="" method="">
+													<input type="search" name="search" class="in_search" placeholder="Введите наименование продукта. Например: Фасоль">
+													<button type="submit" class="btn_grin">Поиск</button>
+												</form>
+												<a href="#">Расширенный поиск</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4">
+									<div class="h_side_right">
+										<div class="h_block">
+											<ul class="h_social">
+												<li><a href="#">1</a></li>
+												<li><a href="#">2</a></li>
+												<li><a href="#">3</a></li>
+												<li><a href="#">4</a></li>
+												<li><a href="#">5</a></li>
+											</ul>
+											<button class="btn_grin">Контактная информация</button>
+											<div class="personal">
+												<h3>Личный кабинет</h3>
+												<div class="h_user">
+													<button class="btn_grey">Регистрация</button>
+													<button class="btn_grin">ВХОД</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="category">
+										<ul class="bredcrumb">
+											<li>
+												<a href="#">Главная</a>
+												<span></span>
+											</li>
+											<li>
+												<a href="#">Товары</a>
+												<span></span>
+											</li>
+											<li class="active">
+												<a href="#">Название товара</a>
+											</li>
+										</ul>
+									</div>
+									<div class="banner">
+										<img class="img-responsive" src="img/banner_03.png" width="1160" height="92" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section id="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="c_wrap">
+								<div class="big_search">
+									<form action="" class="c_search">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="c_serch_line">
+													<label for="country">Страна<span>*</span></label>
+													<div class="select_wrapper">
+														<select name="country" id="country">
+															<option value="0">Все</option>
+															<option value="1">Российская Федерация</option>
+															<option value="2">Украина</option>
+															<option value="3">Беларусь</option>
+														</select>
+														<div class="select_arrow"></div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="c_serch_line">
+													<label for="region">Регион<span>*</span></label>
+													<div class="select_wrapper">
+														<select name="region" id="region">
+															<option value="0">Все</option>
+														</select>
+														<div class="select_arrow"></div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="c_serch_line">
+													<label for="punckt">Населенный пункт<span>*</span></label>
+													<div class="select_wrapper">
+														<select name="punckt" id="punckt">
+															<option value="0">Все</option>
+														</select>
+														<div class="select_arrow"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-4">
+												<div class="c_serch_line">
+													<label for="category">Категории<span>*</span></label>
+													<div class="select_wrapper">
+														<select name="category" id="category">
+															<option value="0">Все</option>
+															<option value="1">Молочная продукция</option>
+															<option value="2">Мясо и продукция</option>
+															<option value="3">Рыба и продукция</option>
+															<option value="4">Овощи и корнеплоды</option>
+															<option value="5">Фрукты, ягоды</option>
+															<option value="6">Культуры зерновые</option>
+															<option value="7">Сыпучие товары( рис, гречка..)</option>
+															<option value="8">Яичные товары</option>
+															<option value="9">Кондитерские и хлебобулочные изделия</option>
+															<option value="10">Чай, кофе, какао</option>
+															<option value="11">Пищевые жыры и масла</option>
+															<option value="12">Специи</option>
+															<option value="13">Детские и диетическое питания</option>
+															<option value="14">Напитки</option>
+														</select>
+														<div class="select_arrow"></div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="c_serch_line">
+													<label for="prod">Продукт<span>*</span></label>
+													<div class="select_wrapper">
+														<select name="prod" id="prod">
+															<option value="0">Все</option>
+														</select>
+														<div class="select_arrow"></div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="c_serch_line">
+													<label for="">Цена<span>*</span></label>
+													<div class="number">
+														<span>от</span>
+														<input type="number" min="0" max="1000000" step="0.1">
+													</div>
+													<div class="number">
+														<span>до</span>
+														<input type="number" min="0" max="1000000" step="0.1">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="demo" class="collapse">
+											<div class="row">
+												<div class="col-md-4">
+													<div class="c_serch_line">
+														<label for="fat">Жырность<span>*</span></label>
+														<div class="select_wrapper">
+															<select class="select_grin" name="fat" id="fat">
+																<option value="0">Все</option>
+															</select>
+															<div class="select_arrow"></div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="c_serch_line">
+														<label for="other">Класс<span>*</span></label>
+														<div class="select_wrapper">
+															<select name="other" id="other">
+																<option value="0">Все</option>
+															</select>
+															<div class="select_arrow"></div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="c_serch_line">
+														<label for="gost">Гост<span>*</span></label>
+														<div class="select_wrapper">
+															<select name="gost" id="gost">
+																<option value="0">Все</option>
+															</select>
+															<div class="select_arrow"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-4">
+													<div class="c_search_check">
+														<label for="sal">Вид сделки</label>
+														<input type="checkbox">
+														<span>Продажа</span>
+													</div>
+													<div class="c_search_check">
+														<input type="checkbox">
+														<span>Покупка</span>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="c_search_check">
+														<label for="trade">Объем торговли</label>
+														<input type="checkbox">
+														<span>Оптовая</span>
+													</div>
+													<div class="c_search_check">
+														<input type="checkbox">
+														<span>Розничная</span>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="c_search_check">
+														<label for="onvership">Форма собственности</label>
+														<input type="checkbox">
+														<span>Частное лицо</span>
+													</div>
+													<div class="c_search_check">
+														<input type="checkbox">
+														<span>ИП/КФХ</span>
+													</div>
+													<div class="c_search_check">
+														<input type="checkbox">
+														<span>Юридическое лицо</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="c_serch_check">
+														<div class="c_serch_block">
+															<input type="checkbox">
+															<span>VIP</span>
+														</div>
+														<div class="c_serch_block">
+															<input type="checkbox">
+															<span>Акция</span>
+														</div>
+															
+														<div class="c_serch_block">
+															<input type="checkbox">
+															<span>Утилизация</span>
+														</div>
+															
+														<div class="c_serch_block">
+															<input type="checkbox">
+															<span>Распродажа</span>
+														</div>
+															
+														<div class="c_serch_block">
+															<input type="checkbox">
+															<span>Предварительное объявление</span>
+														</div>
+															
+														<div class="c_serch_block">
+															<input type="checkbox">
+															<span>Выделенное</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="c_serch_button">
+													<a href="#" class="btn_grin b_left" data-toggle="collapse" data-target="#demo">Показать больше</a>
+													<input type="submit" class="btn_grin b_rigt" value="Поиск">
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+								<p>Корпоративный стиль — набор графических форм и принципов построения визуальной коммуникации, объединённых одной идеей, основная задача которых — выделить компанию, и создать узнаваемый образ в глазах потребителей.</p>
+								<p>«Корпоративный» или «фирменный» стиль часто понимается как набор словесных и визуальных констант, обеспечивающих единство восприятия товаров, услуг, информации, исходящих от фирмы или торговой марки к потребителю.</p>
+								<p>Корпоративный дизайн наряду с корпоративной философией, корпоративной культурой и корпоративным поведением является одним из элементов корпоративной идентичности</p>
+								<p>Понятие фирменного стиля появилось в начале XX века, когда количество компаний, работающих в одной области, критически возросло и стала актуальной проблема их узнаваемости.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="banner">
+								<img class="img-responsive" src="img/banner_03.png" width="1160" height="92" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="tovar_main">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="seleckt_block c_grin">
+								<div class="show_block">
+									<div class="show_block_w">
+										<span>Вид списка</span>
+										<ul>
+											<li><a href="#"><i class="fa fa-th-list"></i></a></li>
+											<li><a href="#"><i class="fa fa-th-large" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-align-justify" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-stop" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="data_block">
+									<select name="" id="">
+										<option value="0">По дате</option>
+										<option value="1">По цене(возростание)</option>
+										<option value="2">По цене(убывание)</option>
+									</select>
+								</div>
+							</div>
+							<div class="catalog_tovarov gray_frame">
+								<div class="tovar_block gray_frame">
+									<div class="tovar_block_wrap">
+										<span class="tovar_check"></span>
+										<div class="tovar_block_content">
+											<div class="t_b_opisanie">
+												<div class="t_b_title">
+													<span class="t_b_data">23:42 / 01-06-2016</span>
+													<a href="#" class="t_b_name">Масло, твердые сыры</a>
+												</div>
+												<p>Доставка осуществляется в любой регион№ 434Молочная продукция	1 rub</p>
+											</div>
+											<div class="ilustration">
+												<img src="img/t_img01.jpg" width="167" height="125" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tovar_block gray_frame">
+									<div class="tovar_block_wrap">
+										<span class="tovar_check"></span>
+										<div class="tovar_block_content">
+											<div class="t_b_opisanie">
+												<div class="t_b_title">
+													<span class="t_b_data">23:42 / 01-06-2016</span>
+													<a href="#" class="t_b_name">Масло, твердые сыры</a>
+												</div>
+												<p>Доставка осуществляется в любой регион№ 434Молочная продукция	1 rub</p>
+											</div>
+											<div class="ilustration">
+												<img src="img/t_img01.jpg" width="167" height="125" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="right_aside gray_frame">
+								<div class="r_aside_heder c_grin">
+									<p>VIP</p>
+								</div>
+								<div class="r_aside_content">
+									<a href="#">
+										<p class="a_r_first">Продаем жмых подсолнечный низкопротеиновый</p>
+										<div class="r_aside_ilustration">
+											<img src="img/aside_img01.jpg" width="252" height="118" alt="">
+										</div>
+										<p>Продаем жмых подсолнечный протеин 18-22%</p>
+									</a>
+								</div>
+							</div>
+							<div class="right_aside gray_frame">
+								<div class="r_aside_content">
+									<a href="#">
+										<p class="a_r_first">Продаем жмых подсолнечный низкопротеиновый</p>
+										<div class="r_aside_ilustration">
+											<img src="img/aside_img01.jpg" width="252" height="118" alt="">
+										</div>
+										<p>Продаем жмых подсолнечный протеин 18-22%</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="c_wrap">
+								<p>Корпоративный стиль — набор графических форм и принципов построения визуальной коммуникации, объединённых одной идеей, основная задача которых — выделить компанию, и создать узнаваемый образ в глазах потребителей.</p>
+								<p>«Корпоративный» или «фирменный» стиль часто понимается как набор словесных и визуальных констант, обеспечивающих единство восприятия товаров, услуг, информации, исходящих от фирмы или торговой марки к потребителю.</p>
+								<p>Корпоративный дизайн наряду с корпоративной философией, корпоративной культурой и корпоративным поведением является одним из элементов корпоративной идентичности</p>
+								<p>Понятие фирменного стиля появилось в начале XX века, когда количество компаний, работающих в одной области, критически возросло и стала актуальной проблема их узнаваемости.</p>
+								<p>Корпоративный стиль разрабатывается на основе логотипа и знака. Вначале проводится общий анализ компаний, аналогичных той, которая заказала логотип или фирменный знак. Затем вычленяются отличительные особенности данной компании. После этого формируется идея «смыслового образа», который впоследствии станет основополагающим в фирменном стиле данной компании. В этот образ вкладываются не только графические элементы, но и психология продаж (например, агрессивный маркетинг) и географическое местоположение компании, социологические образы общественной среды. Затем разрабатывается логотип. В начале разработки определяются основные элементы: стилеобразующая идея, цветовая гамма, шрифты. Разрабатываются стандарты и рекомендации по нанесению корпоративной символики на носители стиля. Носителем стиля может быть всё что угодно: внутренняя документация, наружная реклама, здание офиса. После окончания работы по разработке стиля составляется руководство по его применению. Руководство называют по-разному: стандарты оформления. Хотя название «» в данном случае использовать некорректно.</p>
+								<p>Затем разрабатывается логотип. В начале разработки определяются основные элементы: стилеобразующая идея, цветовая гамма, шрифты. Разрабатываются стандарты и рекомендации по нанесению корпоративной символики на носители стиля. Носителем стиля может быть всё что угодно: внутренняя документация, наружная реклама, здание офиса. После окончания работы по разработке стиля составляется руководство по его применению. Руководство называют по-разному, стандарты оформленияКорпоративный стиль — набор графических форм и принципов построения визуальной коммуникации, объединённых одной идеей, основная задача которых — выделить компанию, и создать узнаваемый образ в глазах потребителей.</p>
+								<p>«Корпоративный» или «фирменный» стиль часто понимается как набор словесных и визуальных констант, обеспечивающих единство восприятия товаров, услуг, информации, исходящих от фирмы или торговой марки к потребителю.Корпоративный дизайн наряду с корпоративной философией, корпоративной культурой и корпоративным поведением является одним из элементов корпоративной идентичности</p>
+								<p>Понятие фирменного стиля появилось в начале XX века, когда количество компаний, работающих в одной области, критически возросло и стала актуальной проблема их узнаваемости.</p>
+								<p>Корпоративный стиль разрабатывается на основе логотипа и знака. Вначале проводится общий анализ компаний, аналогичных той, которая заказала логотип или фирменный знак. Затем вычленяются отличительные особенности данной компании. После этого формируется идея «смыслового образа», который впоследствии станет основополагающим в фирменном стиле данной компании. В этот образ вкладываются не только графические элементы, но и психология продаж (например, агрессивный маркетинг) и географическое местоположение компании, социологические образы общественной среды. </p>
+								<p>Затем разрабатывается логотип. В начале разработки определяются основные элементы: стилеобразующая идея, цветовая гамма, шрифты. Разрабатываются стандарты и рекомендации по нанесению корпоративной символики на носители стиля. Носителем стиля может быть всё что угодно: внутренняя документация, наружная реклама, здание офиса. После окончания работы по разработке стиля составляется руководство по его применению. Руководство называют по-разному: стандарты оформления. Хотя название «» в данном случае использовать некорректно.</p>
+								<p>Затем разрабатывается логотип. В начале разработки определяются основные элементы: стилеобразующая идея, цветовая гамма, шрифты. Разрабатываются стандарты и рекомендации по нанесению корпоративной символики на носители стиля. Носителем стиля может быть всё что угодно: внутренняя документация, наружная реклама, здание офиса. После окончания работы по разработке стиля составляется руководство по его применению. Руководство называют по-разному, стандарты оформления</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer id="footer" class="bg_footer05">
+				<div class="footer_wrap">
+					<div class="container">
+						<div class="row">
+							<div class="footer_nav">
+								<ul>
+									<li class="active"><a href="#">О компании</a></li>
+									<li><a href="#">Условия и правила</a></li>
+									<li><a href="#">Отзывы</a></li>
+									<li><a href="#">Оферта</a></li>
+									<li><a href="#">Помощь</a></li>
+									<li><a href="#">Реклама</a></li>
+								</ul>
+							</div>
+							<div class="footer_holder">
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<div class="footer_lang">
+										<ul>
+											<li><a href="#" class="lang_item_ru">RUS</a></li>
+											<li><a href="#" class="lang_item_en">ENG</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<a href="#" class="f_button">Контактная информация</a>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<div class="footer_social">
+										<ul class="f_social">
+											<li><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!--[if lt IE 9]>
+			<script src="libs/html5shiv/es5-shim.min.js"></script>
+			<script src="libs/html5shiv/html5shiv.min.js"></script>
+			<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+			<script src="libs/respond/respond.min.js"></script>
+			<![endif]-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+		</body>
+</html>						

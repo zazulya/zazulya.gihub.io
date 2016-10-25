@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Репетитор по математике</title>
+		<!-- Bootstrap -->
+		<link href="css/all.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.css" rel="stylesheet">
+		<link href="fonts/nautilus.css" rel="stylesheet">
+		<link href="fonts/roboto.css" rel="stylesheet">
+		<link href="photopile/css/photopile.css" rel="stylesheet">
+		<link href="photopile/css/main.css" rel="stylesheet">
+		<script src="js/jQuery v1.11.2.js"></script>
+		<script type="text/javascript" src="js/eskju.jquery.scrollflow.min.js"></script>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header id="header">
+			<div class="container">
+				<div class="col-md-12 overflov">
+					<div class="row">
+						<div class="top-links pull-left">
+							<a href="#" data-toggle="modal" data-target="#entrance">Вход</a> / 
+							<a href="#" data-toggle="modal" data-target="#registration">Регистрация</a>
+						</div>
+						<div class="social-icons pull-right">
+							<ul class="nav nav-pills">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-vk"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="col-md-12">
+						<div class="navbar-header">
+							<a href="index.htm" class="logo-header">Артём Никулин</a>
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+								<span class="sr-only">Открыть навигацию</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div id="responsive-menu" class="collapse navbar-collapse">
+							<ul class="nav navbar-nav top-menu">
+								<li class="active"><a href="index.htm">Главная</a></li>
+								<li><a href="aboutmy.htm">О нас</a></li>
+								<li><a href="blog.htm">Статьи</a></li>
+								<li><a href="price.htm">Цены</a></li>
+								<li><a href="faq.htm">Вопрос/Oтвет</a></li>
+								<li><a href="#mapcontact">Расположение</a></li>
+								<li><a href="#contact">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel">Заполните форму регистрации</h4>
+					</div>
+					<div class="modal-body">
+						<form role="form" id="registrationForm">
+							<div class="form-group">
+								<label for="login">Введите имя:</label>
+								<input type="text" id="login" class="form-control" placeholder="Имя">
+							</div>
+							<div class="form-group">
+								<label for="password">Введите пароль:</label>
+								<input type="password" id="password" class="form-control" placeholder="Пароль">
+							</div>
+							<div class="form-group">
+								<label for="inspection">Введите пароль ещё раз:</label>
+								<input type="password" id="inspection" class="form-control" placeholder="Пароль">
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary">Регистрация</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="entrance" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel">Введите Ваши данные</h4>
+					</div>
+					<div class="modal-body">
+						<form role="form" id="registrationForm">
+							<div class="form-group">
+								<label for="login">Введите имя:</label>
+								<input type="text" id="login" class="form-control" placeholder="Имя">
+							</div>
+							<div class="form-group">
+								<label for="password">Введите пароль:</label>
+								<input type="password" id="password" class="form-control" placeholder="Пароль">
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary">Вход</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section id="aboutMe">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="heading">
+							<h2>О репетиторе</h2>
+							<span class="border"></span>
+							<p class="scrollflow -pop -opacity">Здравствуйте! Меня зовут Вася Пупкин.Я — частный преподаватель, репетитор по математике и физике, тьютор. Город Киев.Ученая степень: кандидат физико-математических наук. Образование: Киевский национальный университет имени Тараса Шевченко, физический факультет. Опыт работы: 10 лет.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="title">
+						<div class="col-md-4 scrollflow -slide-right -opacity">
+							<img src="images/repetitor-273x300.jpg" alt="" />
+						</div>
+						<div class="col-md-8 scrollflow -slide-left -opacity">
+							<p>Репетитор – преподаватель (учитель), дающий частные уроки на дому, который проводит дополнительные занятия, помогая усвоить необходимые знания. Тьютор – это педагог-наставник, ближайший советник ученика и помощник во всех затруднениях. Сопровождает процесс образования в школе, обеспечивает разработку индивидуальных образовательных программ. Помогает ученику понять свои способности, таланты и направить их в нужное русло. Знает индивидуальные особенности ребенка и содействует его гармоничному развитию.</p>
+							<a href="aboutmy.htm" class="btn btn-primary">Подробнее при нажатии переход на стр О репетиторе</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="education">
+			<div class="container">
+				<div class="row">
+					<div class="heading">
+						<h2>Почему именно я Ваш репетитор</h2>
+						<span class="border"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 text-center">
+						<div class="single-service">
+							<div class="icon-service scrollflow -slide-top -opacity">
+								<i class="fa fa-clock-o"></i>
+							</div>
+							<strong>Быстро</strong>
+							<p>Любой Ваш текст Пишите здесь. Описание или что то другое.</p>
+						</div>
+						
+					</div>
+					<div class="col-sm-4 text-center">
+						<div class="single-service">
+							<div class="icon-service scrollflow -slide-top -opacity">
+								<i class="fa fa-heart-o"></i>
+							</div>
+							<strong>Качественно</strong>
+							<p>Любой Ваш текст Пишите здесь. Описание или что то другое.</p>
+						</div>
+					</div>
+					<div class="col-sm-4 text-center">
+						<div class="single-service">
+							<div class="icon-service scrollflow -slide-top -opacity">
+								<i class="fa fa-star-o"></i>
+							</div>
+							<strong>Доступно</strong>
+							<p>Любой Ваш текст Пишите здесь. Описание или что то другое.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="education-bg">
+				<div class="container">
+					<div class="row">
+						<div class="service-color">
+							<div class="top-service">
+								<div class="col-md-6 col-lg-5">
+									<a href="#" class="service-block scrollflow -slide-bottom -opacity">
+										<i class="fa fa-paper-plane-o"></i>
+										<strong>Где проводятся занятия</strong>
+										<p>Любой Ваш текст Пишите здесь. Описание или что то другое. Ссылка при нажатии переход в соответсвующий раздел.</p>
+									</a>
+								</div>
+								<div class="col-md-5 col-md-offset-1 col-lg-5">
+									<a href="#" class="service-block scrollflow -slide-bottom -opacity">
+										<i class="fa fa-flask"></i>
+										<strong>Способ оплаты</strong>
+										<p>Любой Ваш текст Пишите здесь. Описание или что то другое. Ссылка при нажатии переход в соответсвующий раздел.</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="service-color">
+							<div class="bottom-service">
+								<div class="col-md-6 col-lg-5">
+									<a href="#" class="service-block scrollflow -slide-top -opacity">
+										<i class="fa fa-thumbs-o-up"></i>
+										<strong>Мои гарантии</strong>
+										<p>Любой Ваш текст Пишите здесь. Описание или что то другое. Ссылка при нажатии переход в соответсвующий раздел.</p>
+									</a>
+								</div>
+								<div class="col-md-5 col-md-offset-1 col-lg-5">
+									<a href="#" class="service-block scrollflow -slide-top -opacity">
+										<i class="fa fa-pencil"></i>
+										<strong>Акции конкурсы</strong>
+										<p>Любой Ваш текст Пишите здесь. Описание или что то другое. Ссылка при нажатии переход в соответсвующий раздел.</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="action" class="responsive">
+			<div class="vertical-center">
+				<div class="container">
+					<div class="row">
+						<div class="action take-tour">
+							<div class="col-sm-7 scrollflow -slide-right -opacity">
+								<h3>Репетиторство</h3>
+								<p>Если нужны консультации, репетиторa по предмету, нажмите</p>
+							</div>
+							<div class="col-sm-5">
+								<div class="tour-button scrollflow -slide-left -opacity">
+									<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#total">Задать вопрос</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="modal fade" id="total" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel">Задайте Ваш вопрос</h4>
+					</div>
+					<div class="modal-body">
+						<form role="form">
+							<div class="form-group">
+								<label for="name">Вашe имя:</label>
+								<input type="text" class="form-control" id="name" placeholder="Имя">
+							</div>
+							<div class="form-group">
+								<label for="phon">Ваш телефон:</label>
+								<input type="text" class="form-control" id="phon" placeholder="+380935575142">
+							</div>
+							<div class="form-group">
+								<label for="mail">Ваш Email:</label>
+								<input type="email" class="form-control" id="mail" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<label for="subject">Ваш вопрос:</label>
+								<textarea type="text" class="form-control" id="subject" placeholder="Ваш вопрос"></textarea>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary">Отправить</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section id="myphotofile">
+			<div class="gallery-photo">
+				<div class="bg-color-gallery">
+					<div class="container">
+						<div class="row">
+							<div class="heading">
+								<h2>Мои фотгрфии</h2>
+								<span class="border"></span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="photopile-wrapper">
+									<ul class="photopile">
+										<li>
+											<a href="photopile/images/fullsize/01.jpg">
+												<img src="photopile/images/thumbs/01.jpg" alt="Ваш текст" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/02.jpg">
+												<img src="photopile/images/thumbs/02.jpg" alt="Building Atlanta, Georgia" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/03.jpg">
+												<img src="photopile/images/thumbs/03.jpg" alt="Nice day for a swim" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/04.jpg">
+												<img src="photopile/images/thumbs/04.jpg" alt="The plants that never die" width="100" height="133" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/05.jpg">
+												<img src="photopile/images/thumbs/05.jpg" alt="Downtown Atlanta, Georgia" width="100" height="134" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/06.jpg">
+												<img src="photopile/images/thumbs/06.jpg" alt="Atlanta traffic" width="100" height="137" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/07.jpg">
+												<img src="photopile/images/thumbs/07.jpg" alt="A pathetic dog" width="120" height="120" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/08.jpg">
+												<img src="photopile/images/thumbs/08.jpg" alt="Two happy dogs" width="140" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/09.jpg">
+												<img src="photopile/images/thumbs/09.jpg" alt="Antigua, Guatemala" width="100" height="133" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/10.jpg">
+												<img src="photopile/images/thumbs/10.jpg" alt="Iximche, Guatemala" width="135" height="128" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/11.jpg">
+												<img src="photopile/images/thumbs/11.jpg" alt="The bat cave" width="119" height="133" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/12.jpg">
+												<img src="photopile/images/thumbs/12.jpg" alt="All Saints Day Kite Festival" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/13.jpg">
+												<img src="photopile/images/thumbs/13.jpg" alt="Tikal, Guatemala" width="130" height="130" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/14.jpg">
+												<img src="photopile/images/thumbs/14.jpg" alt="Mackinac Island, Michigan" width="111" height="130" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/15.jpg">
+												<img src="photopile/images/thumbs/15.jpg" alt="Summer flowers" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/16.jpg">
+												<img src="photopile/images/thumbs/16.jpg" alt="Full of hot air" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/17.jpg">
+												<img src="photopile/images/thumbs/17.jpg" alt="On the rise" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/18.jpg">
+												<img src="photopile/images/thumbs/18.jpg" alt="Amador Causeway, Panama City" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/19.jpg">
+												<img src="photopile/images/thumbs/19.jpg" alt="The Panama Canal" width="140" height="79" />
+											</a>
+										</li>
+										<li>
+											<a href="photopileimages/fullsize/20.jpg">
+												<img src="photopile/images/thumbs/20.jpg" alt="Flags over Brussels" width="133" height="99" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/21.jpg">
+												<img src="photopile/images/thumbs/21.jpg" alt="Eiffel Tower" width="100" height="134" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/22.jpg">
+												<img src="photopile/images/thumbs/22.jpg" alt="Never-ending stairs" width="99" height="133" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/23.jpg">
+												<img src="photopile/images/thumbs/23.jpg" alt="Paris, France" width="140" height="93" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/24.jpg">
+												<img src="photopile/images/thumbs/24.jpg" alt="Rainbow over Belgium" width="136" height="98" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/25.jpg">
+												<img src="photopile/images/thumbs/25.jpg" alt="Playa del Carmen" width="136" height="96" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/26.jpg">
+												<img src="photopile/images/thumbs/26.jpg" alt="Panama City, Panama" width="133" height="96" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/27.jpg">
+												<img src="photopile/images/thumbs/27.jpg" alt="Red frog" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/28.jpg">
+												<img src="photopile/images/thumbs/28.jpg" alt="Dogs on a couch" width="133" height="99" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/29.jpg">
+												<img src="photopile/images/thumbs/29.jpg" alt="Tarantula" width="133" height="97" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/30.jpg">
+												<img src="photopile/images/thumbs/30.jpg" alt="Ceviche Loco" width="140" height="93" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/31.jpg">
+												<img src="photopile/images/thumbs/31.jpg" alt="Playa Blanca, Panama" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/32.jpg">
+												<img src="photopile/images/thumbs/32.jpg" alt="Pickles" width="133" height="99" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/33.jpg">
+												<img src="photopile/images/thumbs/33.jpg" alt="Parrot" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/34.jpg">
+												<img src="photopile/images/thumbs/34.jpg" alt="Panama rains" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/35.jpg">
+												<img src="photopile/images/thumbs/35.jpg" alt="Cinta Costera, Panama City" width="120" height="120" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/36.jpg">
+												<img src="photopile/images/thumbs/36.jpg" alt="Afternoon stroll" width="133" height="100" />
+											</a>
+										</li>
+										<li>
+											<a href="photopile/images/fullsize/37.jpg">
+												<img src="photopile/images/thumbs/37.jpg" alt="Overlooking the Panama Canal" width="138" height="94" />
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="mapcontact">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="map-wrap">
+						<div class="map">
+							<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=wSbnhJj2EC3AR7cvSBBSQV5SlOy3xpil&width=100%&height=400&lang=ru_UA&sourceType=constructor"></script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="heading">
+						<h2>Мои контакты</h2>
+						<span class="border"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-5 col-lg-offset-1 scrollflow -slide-right -opacity">
+						<h4>Задайте вопрос</h4>
+						<form role="form">
+							<div class="form-group">
+								<label for="name">Вашe имя:</label>
+								<input type="text" class="form-control" id="name" placeholder="Имя">
+							</div>
+							<div class="form-group">
+								<label for="phon">Ваш телефон:</label>
+								<input type="text" class="form-control" id="phon" placeholder="+380935575142">
+							</div>
+							<div class="form-group">
+								<label for="mail">Ваш Email:</label>
+								<input type="email" class="form-control" id="mail" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<label for="subject">Ваш вопрос:</label>
+								<textarea type="text" class="form-control" id="subject" placeholder="Ваш вопрос"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Отправить</button>
+						</form>
+					</div>
+					<div class="col-lg-5 col-lg-offset-1 scrollflow -slide-left -opacity">
+						<h4>Мы находимся</h4>
+						<ul class="group">
+							<li>
+								<span>Адрес</span>
+								<span>Россия, Самара, ул. Самара 34</span>
+							</li>
+							<li>
+								<span>Телефон</span>
+								<span>+9 123 456 7890</span>
+							</li>
+							<li>
+								<span>E-Mail</span>
+								<span>uliyazazulya@gmail.com</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="footer-bottom">
+			<div class="footer">
+				<div class="container">
+					<p class="text-center">Copyright 2016. All Rights Reserved.</p>
+				</div>
+			</div>
+		</section>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="photopile/js/jquery-ui.js"></script>
+		<script src="photopile/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="photopile/js/bootstrap-select.js"></script>
+		<script src="photopile/js/bootstrap-switch.js"></script>
+		<script src="photopile/js/photopile.js"></script>
+		
+	</body>
+</html>
