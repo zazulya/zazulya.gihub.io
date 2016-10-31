@@ -54,7 +54,7 @@ body a{
 	padding: 40px 0 0 0;
 	text-align: center;
 	position: relative;
-	min-height: 800px;
+	height:100vh;
 }
 .logo{
 	display:block;
@@ -96,8 +96,7 @@ body a{
 }
 .hedder_arrow{
 	position: absolute;
-	content:"";
-	bottom:70px;
+	bottom:10%;
 	left:0;
 	right:0;
 	background:url(../img/header_arrow.png) no-repeat; 
@@ -107,10 +106,9 @@ body a{
 }
 .header .title_section{
 	position: absolute;
-	content:"";
 	left:0;
 	right:0;
-	top:345px;
+	top:40%;
 }
 /*------header------*/
 
@@ -163,13 +161,13 @@ body a{
 }
 .tiles_title{
 	position: absolute;
-	content:"";
-	left:15px;
-	bottom:15px;
+	left:0;
+	bottom:0;
 	z-index:15;
 	transform:translateX(-100%);
 	visibility: hidden; 
 	transition: all 0.5s ease-in-out;
+	padding:0 0 15px 15px;
 }
 .tiles_list a:hover .tiles_title{
 	transform:translateX(0);
@@ -232,17 +230,18 @@ body a{
 }
 .album li{
 	float:left;
-	width:24.9999%;
+	width:25%;
+	margin:0 0 -1px -1px;
 }
 .album li > a{
 	position: relative;
 }
-.album li > a,
-.album li > a img{
+.album li > a{
 	display: block;
 	width: 100%;
+	overflow: hidden;
 }
-.album .visible img{
+.album .visible{
 	-webkit-filter:opacity(0.93) brightness(0.4);
 	-moz-filter:opacity(0.93) brightness(0.4);
 	-o-filter:opacity(0.93) brightness(0.4);
@@ -271,7 +270,9 @@ body a{
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
 	font-size: 24px;
 	letter-spacing:3px;
-	padding: 75px;
+	padding: 20px;
+	word-wrap:break-word;
+	text-align: center;
 }
 .album a:hover .overlay{
 	opacity:1;
@@ -280,11 +281,48 @@ body a{
 }
 .instagram  .title_section{
 	position: absolute;
-	content:"";
 	left:0;
-	top:245px;
+	top:35%;
 	width:100%;
 	z-index:30;
+	pointer-events: none;
+}
+.album .visible{
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	overflow: hidden;
+}
+.album .visible:before{
+	content:'';
+	float: left;
+	display: block;
+	width: 100%;
+	margin-top:100% 
+}
+.album .visible{
+	background-image: url(../img/img_01.jpg);
+}
+.album .visible_2{
+	background-image: url(../img/img_02.jpg);
+}
+.album .visible_3{
+	background-image: url(../img/img_03.jpg);
+}
+.album .visible_4{
+	background-image: url(../img/img_04.jpg);
+}
+.album .visible_5{
+	background-image: url(../img/img_05.jpg);
+}
+.album .visible_6{
+	background-image: url(../img/img_06.jpg);
+}
+.album .visible_7{
+	background-image: url(../img/img_07.jpg);
+}
+.album .visible_8{
+	background-image: url(../img/img_08.jpg);
 }
 .header .title_section h2,
 .instagram  .title_section h2{
@@ -354,15 +392,24 @@ body a{
 	text-decoration: none;
 	width:27px;
 	height:27px;
-	margin:0 5px;
+	margin:0 -10px 0 10px;
 	text-align: center;
+	background-image: url(../img/social_icon.png);
+	background-repeat:no-repeat;
 }
-.social a i{
-	font-size:27px;
-	line-height:27px;
-	color: #1a1a1a;
+.insta{
+	background-position:0 -2px;
 }
-.social a:hover i{
+.facebook{
+	background-position:-60px 0;
+}
+.twitter{
+	background-position:-119px -2px;
+}
+.social a:first-child{
+	margin-left:0;
+}
+.social a:hover{
 	opacity:0.8;
 	text-decoration: none;
 }

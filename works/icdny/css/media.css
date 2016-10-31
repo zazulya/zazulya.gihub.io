@@ -1,7 +1,4 @@
 @media (max-width: 320px){
-	.banner{
-		min-height:200px;
-	}
 	.album li{
 		width:49.9999%;
 	}
@@ -26,9 +23,7 @@
 	
 }
 @media (max-width: 480px){
-	.banner{
-		min-height:360px;
-	}
+
 }
 
 @media (max-width: 640px){
@@ -48,9 +43,6 @@
 }
 
 @media (max-width: 768px){
-	.banner{
-		min-height:470px;
-	}
 	.logo{
 		margin:0 auto;
 		float:none;
@@ -82,7 +74,8 @@
 		bottom:5px;
 	}
 	.album .overlay h3{
-		padding:50px 0 0 0;
+		font-size:1em;
+		letter-spacing:0;
 	}
 	.tiles_list .visible{
 		text-align: center;
@@ -95,7 +88,6 @@
 	}
 	.instagram  .title_section{
 		display: block;
-		top:158px;
 	}
 	.instagram  .title_section h2{
 		font-size: 28px;
@@ -124,7 +116,7 @@
 		width:100%;
 	}
 	.col_left,
-	.col_right div,
+	.col_right > div,
 	.row_bottom .column_1,
 	.column_1{
 		margin:0 0 15px 0;
@@ -138,7 +130,6 @@
 
 @media (max-width: 640px){
 	.instagram  .title_section{
-		top:125px;
 		display: block;
 	}
 	.instagram  .title_section h2{
@@ -154,14 +145,10 @@
 }
 
 @media (max-width: 1024px){
-	.banner{
-		min-height:1024;
-	}
 	.header_nav li{
 		margin-right: 20px;
 	}
 	.instagram  .title_section{
-		top:125px;
 		display: block;
 	}
 	.instagram  .title_section h2{
