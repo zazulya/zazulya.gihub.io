@@ -1,29 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Репетитор по математике</title>
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/font-awesome.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
 		<link href="fonts/nautilus.css" rel="stylesheet">
 		<link href="fonts/roboto.css" rel="stylesheet">
-		<link href="photopile/css/photopile.css" rel="stylesheet">
-		<link href="photopile/css/main.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
 		<link href="css/all.css" rel="stylesheet">
-		<script src="js/jQuery v1.11.2.js"></script>
-		<script type="text/javascript" src="js/eskju.jquery.scrollflow.min.js"></script>
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
 	</head>
 	<body>
-		<header id="header">
+		<header>
 			<div class="container">
 				<div class="col-md-12 overflov">
 					<div class="row">
@@ -68,61 +61,61 @@
 				</div>
 			</div>
 		</header>
-		<div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal fade" id="registration">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						<h4 class="modal-title" id="myModalLabel">Заполните форму регистрации</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Заполните форму регистрации</h4>
 					</div>
 					<div class="modal-body">
-						<form role="form" id="registrationForm">
+						<form id="vhod">
 							<div class="form-group">
-								<label for="login">Введите имя:</label>
-								<input type="text" id="login" class="form-control" placeholder="Имя">
+								<label for="vhodlogin">Введите имя:</label>
+								<input type="text" id="vhodlogin" class="form-control" placeholder="Имя">
 							</div>
 							<div class="form-group">
-								<label for="password">Введите пароль:</label>
-								<input type="password" id="password" class="form-control" placeholder="Пароль">
+								<label for="vhodpassword">Введите пароль:</label>
+								<input type="password" id="vhodpassword" class="form-control" placeholder="Пароль">
 							</div>
 							<div class="form-group">
-								<label for="inspection">Введите пароль ещё раз:</label>
-								<input type="password" id="inspection" class="form-control" placeholder="Пароль">
+								<label for="vhodinspection">Введите пароль ещё раз:</label>
+								<input type="password" id="vhodinspection" class="form-control" placeholder="Пароль">
 							</div>
 						</form>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary">Регистрация</button>
+						<button type="submit" class="btn btn-primary">Регистрация</button>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="modal fade" id="entrance" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal fade" id="entrance">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						<h4 class="modal-title" id="myModalLabel">Введите Ваши данные</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Введите Ваши данные</h4>
 					</div>
 					<div class="modal-body">
-						<form role="form" id="registrationForm">
+						<form id="registr">
 							<div class="form-group">
-								<label for="login">Введите имя:</label>
-								<input type="text" id="login" class="form-control" placeholder="Имя">
+								<label for="reistrlogin">Введите имя:</label>
+								<input type="text" id="reistrlogin" class="form-control" placeholder="Имя">
 							</div>
 							<div class="form-group">
-								<label for="password">Введите пароль:</label>
-								<input type="password" id="password" class="form-control" placeholder="Пароль">
+								<label for="registrpassword">Введите пароль:</label>
+								<input type="password" id="registrpassword" class="form-control" placeholder="Пароль">
 							</div>
 						</form>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary">Вход</button>
+						<button type="submit" class="btn btn-primary">Вход</button>
 					</div>
 				</div>
 			</div>
 		</div>
-		<section id="page-about">
+		<section>
 			<div class="bg-page">
 				<div class="container">
 					<div class="row">
@@ -133,24 +126,20 @@
 			<div class="feature">
 				<div class="container">
 					<div class="row">
-						<div class="wrapper">
-							<div class="col-md-7 scrollflow -slide-right -opacity">
-								<div class="block">
-									<h3>Фамилия Имя Отчество</h3>
-									<p>Репетитор – преподаватель (учитель), дающий частные уроки на дому, который проводит дополнительные занятия, помогая усвоить необходимые знания. Тьютор – это педагог-наставник, ближайший советник ученика и помощник во всех затруднениях. Сопровождает процесс образования в школе, обеспечивает разработку индивидуальных образовательных программ. Помогает ученику понять свои способности, таланты и направить их в нужное русло. Знает индивидуальные особенности ребенка и содействует его гармоничному развитию.</p>
-								</div>
-							</div>
-							<div class="col-md-4 col-md-offset-1 scrollflow -slide-left -opacity">
-								<div class="block">
+						<div class="title">
+							<div class="t_visual">
 									<img src="images/repetitor-273x300.jpg" alt=""  class="img-responsive img-circle"/>
 								</div>
+							<div class="t_text">
+								<h3>Фамилия Имя Отчество</h3>
+								<p>Репетитор – преподаватель (учитель), дающий частные уроки на дому, который проводит дополнительные занятия, помогая усвоить необходимые знания. Тьютор – это педагог-наставник, ближайший советник ученика и помощник во всех затруднениях. Сопровождает процесс образования в школе, обеспечивает разработку индивидуальных образовательных программ. Помогает ученику понять свои способности, таланты и направить их в нужное русло. Знает индивидуальные особенности ребенка и содействует его гармоничному развитию.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="service">
+		<section>
 			<div class="container">
 				<div class="row">
 					<div class="heading">
@@ -162,7 +151,7 @@
 			<div class="sevice-block">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-3 scrollflow -slide-right -opacity">
+						<div class="col-md-3">
 							<h3 class="functional-header">Путешевствие в мир сказки</h3>
 							<ul class="functional">
 								<li><i class="fa fa-check"></i>Чтение</li>
@@ -171,7 +160,7 @@
 								<li><i class="fa fa-check"></i>Занятия 2раза в неделю</li>
 							</ul>
 						</div>
-						<div class="col-md-3 scrollflow -slide-top -opacity">
+						<div class="col-md-3">
 							<h3 class="functional-header">Путешевствие в мир сказки</h3>
 							<ul class="functional">
 								<li><i class="fa fa-check"></i>Чтение</li>
@@ -180,7 +169,7 @@
 								<li><i class="fa fa-check"></i>Занятия 2раза в неделю</li>
 							</ul>
 						</div>
-						<div class="col-md-3 scrollflow -slide-bottom -opacity">
+						<div class="col-md-3">
 							<h3 class="functional-header">Путешевствие в мир сказки</h3>
 							<ul class="functional">
 								<li><i class="fa fa-check"></i>Чтение</li>
@@ -189,7 +178,7 @@
 								<li><i class="fa fa-check"></i>Занятия 2раза в неделю</li>
 							</ul>
 						</div>
-						<div class="col-md-3 scrollflow -slide-left -opacity">
+						<div class="col-md-3">
 							<h3 class="functional-header">Путешевствие в мир сказки</h3>
 							<ul class="functional">
 								<li><i class="fa fa-check"></i>Чтение</li>
@@ -212,7 +201,7 @@
 			<div class="sevice-block">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4 scrollflow -slide-right -opacity">
+						<div class="col-md-4">
 							<h3 class="functional-header">Путешевствие в мир сказки</h3>
 							<ul class="functional">
 								<li><i class="fa fa-check"></i>Чтение</li>
@@ -221,7 +210,7 @@
 								<li><i class="fa fa-check"></i>Занятия 2раза в неделю</li>
 							</ul>
 						</div>
-						<div class="col-md-4 scrollflow -slide-top -opacity">
+						<div class="col-md-4">
 							<h3 class="functional-header">Путешевствие в мир сказки</h3>
 							<ul class="functional">
 								<li><i class="fa fa-check"></i>Чтение</li>
@@ -230,7 +219,7 @@
 								<li><i class="fa fa-check"></i>Занятия 2раза в неделю</li>
 							</ul>
 						</div>
-						<div class="col-md-4 scrollflow -slide-left -opacity">
+						<div class="col-md-4">
 							<h3 class="functional-header">Путешевствие в мир сказки</h3>
 							<ul class="functional">
 								<li><i class="fa fa-check"></i>Чтение</li>
@@ -243,7 +232,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="contact">
+		<section>
 			<div class="container">
 				<div class="row">
 					<div class="heading">
@@ -252,9 +241,9 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-5 col-lg-offset-1 scrollflow -slide-right -opacity">
+					<div class="col-lg-5 col-lg-offset-1">
 						<h4>Задайте вопрос</h4>
-						<form role="form">
+						<form>
 							<div class="form-group">
 								<label for="name">Вашe имя:</label>
 								<input type="text" class="form-control" id="name" placeholder="Имя">
@@ -269,12 +258,12 @@
 							</div>
 							<div class="form-group">
 								<label for="subject">Ваш вопрос:</label>
-								<textarea type="text" class="form-control" id="subject" placeholder="Ваш вопрос"></textarea>
+								<textarea class="form-control" id="subject" placeholder="Ваш вопрос"></textarea>
 							</div>
 							<button type="submit" class="btn btn-primary">Отправить</button>
 						</form>
 					</div>
-					<div class="col-lg-5 col-lg-offset-1 scrollflow -slide-left -opacity">
+					<div class="col-lg-5 col-lg-offset-1">
 						<h4>Мы находимся</h4>
 						<ul class="group">
 							<li>
@@ -303,12 +292,14 @@
 		</section>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
 		<script src="js/bootstrap.min.js"></script>
-		<script src="photopile/js/jquery-ui.js"></script>
-		<script src="photopile/js/jquery.ui.touch-punch.min.js"></script>
-		<script src="photopile/js/bootstrap-select.js"></script>
-		<script src="photopile/js/bootstrap-switch.js"></script>
-		<script src="photopile/js/photopile.js"></script>
 	</body>
 </html>

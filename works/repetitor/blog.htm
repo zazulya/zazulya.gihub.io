@@ -1,30 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Репетитор по математике</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/font-awesome.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
 		<link href="fonts/nautilus.css" rel="stylesheet">
 		<link href="fonts/roboto.css" rel="stylesheet">
-		<link href="photopile/css/photopile.css" rel="stylesheet">
-		<link href="photopile/css/main.css" rel="stylesheet">
 		<link href="css/all.css" rel="stylesheet">
-		<script src="js/jQuery v1.11.2.js"></script>
-		<script type="text/javascript" src="js/eskju.jquery.scrollflow.min.js"></script>
-
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
 	</head>
 	<body>
-		<header id="header">
+		<header>
 			<div class="container">
 				<div class="col-md-12 overflov">
 					<div class="row">
@@ -69,56 +60,56 @@
 				</div>
 			</div>
 		</header>
-		<div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal fade" id="registration">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						<h4 class="modal-title" id="myModalLabel">Заполните форму регистрации</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Заполните форму регистрации</h4>
 					</div>
 					<div class="modal-body">
-						<form role="form" id="registrationForm">
+						<form id="vhod">
 							<div class="form-group">
-								<label for="login">Введите имя:</label>
-								<input type="text" id="login" class="form-control" placeholder="Имя">
+								<label for="vhodlogin">Введите имя:</label>
+								<input type="text" id="vhodlogin" class="form-control" placeholder="Имя">
 							</div>
 							<div class="form-group">
-								<label for="password">Введите пароль:</label>
-								<input type="password" id="password" class="form-control" placeholder="Пароль">
+								<label for="vhodpassword">Введите пароль:</label>
+								<input type="password" id="vhodpassword" class="form-control" placeholder="Пароль">
 							</div>
 							<div class="form-group">
-								<label for="inspection">Введите пароль ещё раз:</label>
-								<input type="password" id="inspection" class="form-control" placeholder="Пароль">
+								<label for="vhodinspection">Введите пароль ещё раз:</label>
+								<input type="password" id="vhodinspection" class="form-control" placeholder="Пароль">
 							</div>
 						</form>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary">Регистрация</button>
+						<button type="submit" class="btn btn-primary">Регистрация</button>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="modal fade" id="entrance" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal fade" id="entrance">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						<h4 class="modal-title" id="myModalLabel">Введите Ваши данные</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Введите Ваши данные</h4>
 					</div>
 					<div class="modal-body">
-						<form role="form" id="registrationForm">
+						<form id="registr">
 							<div class="form-group">
-								<label for="login">Введите имя:</label>
-								<input type="text" id="login" class="form-control" placeholder="Имя">
+								<label for="reistrlogin">Введите имя:</label>
+								<input type="text" id="reistrlogin" class="form-control" placeholder="Имя">
 							</div>
 							<div class="form-group">
-								<label for="password">Введите пароль:</label>
-								<input type="password" id="password" class="form-control" placeholder="Пароль">
+								<label for="registrpassword">Введите пароль:</label>
+								<input type="password" id="registrpassword" class="form-control" placeholder="Пароль">
 							</div>
 						</form>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary">Вход</button>
+						<button type="submit" class="btn btn-primary">Вход</button>
 					</div>
 				</div>
 			</div>
@@ -132,185 +123,216 @@
 				</div>
 			</div>
 			<div class="container">
-				<div class="row">
-					<div class="margin-bottom">
-						<div class="container">
-							<ul class="nav nav-tabs section">
-								<li class="active"><a href="#">Раздел 1 <span class="badge">10</span></a></li>
-								<li><a href="#">Раздел 2 <span class="badge">9</span></a></li>
-								<li><a href="#">Раздел 3 <span class="badge">8</span></a></li>
-								<li><a href="#">Раздел 4 <span class="badge">7</span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="row" id="massonry" data-columns>
-					<div class="item">
-						<div class="news">
-							<div class="thumbnail">
-								<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
-								<div class="caption">
-									<strong>Название поста</strong>
-									<a href="#">Разздел 1</a>
-									<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации.Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
-									<a href="news_1.htm" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
-									<div class="post-bottom">
-										<ul class="nav nav-justify">
-											<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
-											<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
-										</ul>
+				<div class="row margin-bottom">
+					<ul class="nav nav-tabs section">
+						<li class="active"><a href="#tab1" data-toggle="tab">Раздел 1 <span class="badge">4</span></a></li>
+						<li><a href="#tab2" data-toggle="tab">Раздел 2 <span class="badge">3</span></a></li>
+						<li><a href="#tab3" data-toggle="tab">Раздел 3 <span class="badge">2</span></a></li>
+						<li><a href="#tab4" data-toggle="tab">Раздел 4 <span class="badge">1</span></a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<div class="row" id="massonry" data-columns>
+								<div class="item">
+									<div class="news">
+										<div class="thumbnail">
+											<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
+											<div class="caption">
+												<strong>Название поста</strong>
+												<a href="#">Разздел 1</a>
+												<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации.Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
+												<a href="news_1.htm" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
+												<div class="post-bottom">
+													<ul class="nav nav-justify">
+														<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
+														<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="news">
+										<div class="thumbnail">
+											<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
+											<div class="caption">
+												<strong>Название поста</strong>
+												<a href="#">Разздел 1</a>
+												<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
+												<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
+												<div class="post-bottom">
+													<ul class="nav nav-justify">
+														<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
+														<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="news">
+										<div class="thumbnail">
+											<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
+											<div class="caption">
+												<strong>Название поста</strong>
+												<a href="#">Разздел 1</a>
+												<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
+												<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
+												<div class="post-bottom">
+													<ul class="nav nav-justify">
+														<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
+														<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="news">
+										<div class="thumbnail">
+											<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
+											<div class="caption">
+												<strong>Название поста</strong>
+												<a href="#">Разздел 1</a>
+												<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
+												<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
+												<div class="post-bottom">
+													<ul class="nav nav-justify">
+														<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
+														<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="item">
-						<div class="news">
-							<div class="thumbnail">
-								<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
-								<div class="caption">
-									<strong>Название поста</strong>
-									<a href="#">Разздел 1</a>
-									<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
-									<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
-									<div class="post-bottom">
-										<ul class="nav nav-justify">
-											<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
-											<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
-										</ul>
+						<div class="tab-pane" id="tab2">
+							<div class="row" id="massonry" data-columns>
+								<div class="item">
+									<div class="news">
+										<div class="thumbnail">
+											<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
+											<div class="caption">
+												<strong>Название поста</strong>
+												<a href="#">Разздел 1</a>
+												<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
+												<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
+												<div class="post-bottom">
+													<ul class="nav nav-justify">
+														<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
+														<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="news">
+										<div class="thumbnail">
+											<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
+											<div class="caption">
+												<strong>Название поста</strong>
+												<a href="#">Разздел 1</a>
+												<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
+												<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
+												<div class="post-bottom">
+													<ul class="nav nav-justify">
+														<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
+														<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="news">
+										<div class="thumbnail">
+											<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
+											<div class="caption">
+												<strong>Название поста</strong>
+												<a href="#">Разздел 1</a>
+												<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
+												<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
+												<div class="post-bottom">
+													<ul class="nav nav-justify">
+														<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
+														<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="item">
-						<div class="news">
-							<div class="thumbnail">
-								<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
-								<div class="caption">
-									<strong>Название поста</strong>
-									<a href="#">Разздел 1</a>
-									<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
-									<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
-									<div class="post-bottom">
-										<ul class="nav nav-justify">
-											<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
-											<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
-										</ul>
+						<div class="tab-pane" id="tab3">
+							<div class="row" id="massonry" data-columns>
+								<div class="item">
+									<div class="news">
+										<div class="thumbnail">
+											<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
+											<div class="caption">
+												<strong>Название поста</strong>
+												<a href="#">Разздел 1</a>
+												<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
+												<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
+												<div class="post-bottom">
+													<ul class="nav nav-justify">
+														<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
+														<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="news">
+										<div class="thumbnail">
+											<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
+											<div class="caption">
+												<strong>Название поста</strong>
+												<a href="#">Разздел 1</a>
+												<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
+												<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
+												<div class="post-bottom">
+													<ul class="nav nav-justify">
+														<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
+														<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="item">
-						<div class="news">
-							<div class="thumbnail">
-								<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
-								<div class="caption">
-									<strong>Название поста</strong>
-									<a href="#">Разздел 1</a>
-									<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
-									<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
-									<div class="post-bottom">
-										<ul class="nav nav-justify">
-											<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
-											<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="news">
-							<div class="thumbnail">
-								<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
-								<div class="caption">
-									<strong>Название поста</strong>
-									<a href="#">Разздел 1</a>
-									<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
-									<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
-									<div class="post-bottom">
-										<ul class="nav nav-justify">
-											<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
-											<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="news">
-							<div class="thumbnail">
-								<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
-								<div class="caption">
-									<strong>Название поста</strong>
-									<a href="#">Разздел 1</a>
-									<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
-									<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
-									<div class="post-bottom">
-										<ul class="nav nav-justify">
-											<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
-											<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="news">
-							<div class="thumbnail">
-								<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
-								<div class="caption">
-									<strong>Название поста</strong>
-									<a href="#">Разздел 1</a>
-									<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
-									<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
-									<div class="post-bottom">
-										<ul class="nav nav-justify">
-											<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
-											<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="news">
-							<div class="thumbnail">
-								<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
-								<div class="caption">
-									<strong>Название поста</strong>
-									<a href="#">Разздел 1</a>
-									<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
-									<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
-									<div class="post-bottom">
-										<ul class="nav nav-justify">
-											<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
-											<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="news">
-							<div class="thumbnail">
-								<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
-								<div class="caption">
-									<strong>Название поста</strong>
-									<a href="#">Разздел 1</a>
-									<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
-									<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
-									<div class="post-bottom">
-										<ul class="nav nav-justify">
-											<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
-											<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
-										</ul>
+						<div class="tab-pane" id="tab4">
+							<div class="row" id="massonry" data-columns>
+								<div class="item">
+									<div class="news">
+										<div class="thumbnail">
+											<img src="http://placehold.it/600x340" class="img-responsive" alt="" />
+											<div class="caption">
+												<strong>Название поста</strong>
+												<a href="#">Разздел 1</a>
+												<p class="text-justify">Равным образом укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом укрепление и развитие структуры играет важную роль в формировании соответствующий условий активизации. </p>
+												<a href="#" class="btn btn-primary">Подробнее <i class="fa fa-arrow-right"></i></a>
+												<div class="post-bottom">
+													<ul class="nav nav-justify">
+														<li><a href="#"> <i class="fa fa-heart"></i> <span>0</span></a></li>
+														<li><a href="#"> <i class="fa fa-comments"></i> <span>0</span> Комментариев</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -319,7 +341,7 @@
 				</div>
 			</div>
 		</section>		
-		<section id="contact">
+		<section>
 			<div class="container">
 				<div class="row">
 					<div class="heading">
@@ -328,9 +350,9 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-5 col-lg-offset-1 scrollflow -slide-right -opacity">
+					<div class="col-lg-5 col-lg-offset-1">
 						<h4>Задайте вопрос</h4>
-						<form role="form">
+						<form>
 							<div class="form-group">
 								<label for="name">Вашe имя:</label>
 								<input type="text" class="form-control" id="name" placeholder="Имя">
@@ -345,12 +367,12 @@
 							</div>
 							<div class="form-group">
 								<label for="subject">Ваш вопрос:</label>
-								<textarea type="text" class="form-control" id="subject" placeholder="Ваш вопрос"></textarea>
+								<textarea class="form-control" id="subject" placeholder="Ваш вопрос"></textarea>
 							</div>
 							<button type="submit" class="btn btn-primary">Отправить</button>
 						</form>
 					</div>
-					<div class="col-lg-5 col-lg-offset-1 scrollflow -slide-left -opacity">
+					<div class="col-lg-5 col-lg-offset-1">
 						<h4>Мы находимся</h4>
 						<ul class="group">
 							<li>
@@ -380,12 +402,13 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
 		<script src="js/bootstrap.min.js"></script>
-		<script src="photopile/js/jquery-ui.js"></script>
-		<script src="photopile/js/jquery.ui.touch-punch.min.js"></script>
-		<script src="photopile/js/bootstrap-select.js"></script>
-		<script src="photopile/js/bootstrap-switch.js"></script>
-		<script src="photopile/js/photopile.js"></script>
 		<script src="js/salvattore.min.js"></script>
 	</body>
 </html>

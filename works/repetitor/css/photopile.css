@@ -51,9 +51,9 @@ div#photopile-nav-prev:hover {
 /* Thumbnails */
 ul.photopile {
     position: relative;
-    display: inline-block;
-    width: 100%;
-    margin: 0;
+    display:block;
+    width: 90%;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
 }

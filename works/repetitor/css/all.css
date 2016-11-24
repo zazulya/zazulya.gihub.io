@@ -1,3 +1,9 @@
+body{
+	font:18px/22px 'Roboto-Regular';
+}
+textarea{
+	resize:none;
+}
 .top-links{
 	color:#2fbaff;
 }
@@ -15,8 +21,13 @@
 .social-icons .nav li a{
 	color:#2fbaff;
 	font-size:22px;
-	margin-left:8px;
-	padding:5px;
+	text-align: center;
+	padding:0;
+}
+.social-icons .nav li a i{
+	width:35px;
+	height:35px;
+	line-height:35px;
 }
 .social-icons .nav li a:hover{
 	color:#fff;
@@ -24,8 +35,8 @@
 	background:#2fbaff;
 }
 .navbar-inverse{
-	background:#2fbaff !important;
-	border:none !important;
+	background:#2fbaff;
+	border:none;
 }
 .logo-header{
 	color:#fff;
@@ -50,6 +61,10 @@
 .top-menu li.active a{
 	background:#2fbaff !important;
 	color:#ccc !important;
+}
+.t_visual{
+	float: left;
+	margin:0 30px 30px 0;
 }
 .heading,
 .title,
@@ -82,10 +97,9 @@
 .single-service p{
 	font:18px/22px 'Roboto-Regular';
 }
-.title,
-.service-color,
-.service-block p{
+.title{
 	overflow:hidden;
+	padding:0 15px;
 }
 .title p{
 	text-align:justify;
@@ -136,44 +150,43 @@ h4{
 .education-bg{
 	background-color:#2fbaff;
 }
-.service-block{
-	display:block;
-	border-radius: 6px;
-	box-sizing: border-box;
-	padding:20px;
-	margin:0 20px 0 0;
-	transition: background-color 400ms ease-out 0s;
-	width: 460px;
-	color:#fff;
+.service_col{
+	display: inline-block;
+	width: 45%;
+	margin: 20px 4% 20px 0;
+	vertical-align: top;
 }
-.service-block i{
+.service_col:last-child{
+	margin-right:0;
+}
+.service_block{
+	overflow: hidden;
+	display: block;
+	color:#fff;
+	border-radius: 6px;
+	transition: background-color 400ms ease-out 0s;
+	padding:10px;
+}
+.service_block:hover{
+	color:#fff;
+	background:#1b2838;
+	text-decoration: none;
+}
+.service_block i{
 	display: block;
 	float: left;
 	font-size: 80px;
 	height: 140px;
 	line-height:140px;
 	margin-right: 20px;
-	text-align: center;
-	width: 140px;
 }
-.service-block strong{
+.service_block strong{
 	color: #ffffff;
 	display: block;
 	font-size: 26px;
 	line-height: 20px;
 	margin-bottom: 20px;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.25);
-}
-.service-block:hover{
-	text-decoration:none;
-	color:#fff;
-	background:#1b2838;
-}
-.top-service{
-	padding-top:20px;
-}
-.bottom-service{
-	padding-top:20px;
 }
 #action{
 	background-image: url(../images/tour-bg.png);
@@ -287,6 +300,7 @@ h4{
 	border-bottom: 1px solid #2fbaff !important;
 	font-family:'Roboto-Regular';
 	font-size:18px;
+	margin:0 0 20px;
 }
 .section li a{
 	color:#1b2838 !important;
@@ -302,8 +316,8 @@ h4{
 	color:#1b2838 !important;
 }
 .badge{
-	background-color:#2fbaff !important;
-	font-size:15px !important;
+	background-color:#2fbaff;
+	font-size:15px;
 }
 .news .thumbnail{
 	 border: 1px solid #2e6da4;
@@ -343,13 +357,9 @@ h4{
 .feature{
 	padding:40px 0;
 }
-.wrapper{
-	display:table;
-}
-.block{
-	display:table-cell;
-	height:360px;
-	vertical-align:middle;
+.feature .t_visual{
+	float: right;
+	margin:0 0 30px 30px;
 }
 #service .border{
 	width:70%;
@@ -490,7 +500,7 @@ h4{
     margin-top:-0.5em;
     text-align:center;
     color:white;
-	webkit-text-shadow: 1px 1px rgba(0,0,0,0.3);
+	-webkit-text-shadow: 1px 1px rgba(0,0,0,0.3);
 	-moz-text-shadow: 1px 1px rgba(0,0,0,0.3);
 	text-shadow: 1px 1px rgba(0,0,0,0.3);
 }
@@ -540,24 +550,22 @@ h4{
 .faq table:before{
 	content: '';
 	display: block;
-	background: url("../images/article-divider.png") no-repeat;
+	background: url("../images/article-divider.png") no-repeat 50% 50%;
 	position: absolute;
 	top: -30px;
 	left: 0;
-	width: 704px;
+	width: 100%;
 	height: 25px;
 }
 .faq:after{
 	content: '';
-	display: block;
 	position: absolute;
 	bottom: 0;
-	right: 0;
-	left:0;
-	background: url("../images/decoration-stick.png") no-repeat;
-	width: 696px;
+	background: url("../images/decoration-stick.png") no-repeat 50% 50%;
+	-webkit-background-size:contain;
+	background-size:contain;
+	width: 100%;
 	height: 19px;
-	margin: 0 auto;
 }
 .faq td{
 	text-align: left;
@@ -619,3 +627,26 @@ h4{
 		content:'3 .col-xs-4';
 	}
  }
+
+ @media only screen and (max-width : 480px){
+ 	.t_visual,
+ 	.feature .t_visual{
+ 		width:80%;
+ 		margin:0 auto 30px;
+ 		float: none;
+ 	}
+ 	.service_col{
+ 		display: block;
+ 		width:80%;
+ 		margin-left:auto;
+ 		margin-right:auto;
+ 	}
+ 	.service_col:last-child{
+ 		margin-right:auto;
+ 	}
+ }
+@media only screen and (max-width : 768px){
+	.service_block i{
+		display: none;
+	}
+}
