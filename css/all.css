@@ -172,6 +172,10 @@ h3{
 	background-image: url(../img/img_05.jpg);
 	background-repeat:no-repeat;
 }
+.test{
+	background-image: url(../img/img_06.jpg);
+	background-repeat:no-repeat;
+}
 .footer{
 	padding:30px 0;
 	text-align: center;
