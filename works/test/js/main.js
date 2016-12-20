@@ -5,7 +5,7 @@ $(document).ready(function(){
 	var menu=$('.mnu');
 	$(touch).on('click',function(e){
 		e.preventDefault();menu.slideToggle();
-	});
+	}).toggleClass('active');
 	$(window).resize(function(){
 		var w=$(window).width();
 		if(w>767&&menu.is(':hidden')){menu.removeAttr('style');
