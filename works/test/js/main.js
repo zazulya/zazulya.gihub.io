@@ -3,9 +3,9 @@ $(document).ready(function(){
 
 	var touch=$('.btn_mnu');
 	var menu=$('.mnu');
-	$(touch).on('click',function(e){
-		e.preventDefault();menu.slideToggle();
-	});
+	touch.on('click',function(){
+		menu.slideToggle();
+	}).toggleClass('active');
 	$(window).resize(function(){
 		var w=$(window).width();
 		if(w>767&&menu.is(':hidden')){menu.removeAttr('style');
