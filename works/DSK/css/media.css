@@ -1,0 +1,297 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.frame{
+		width:300px;
+	}
+}
+@media only screen and (max-width : 1024px){
+	.block_1 .title {
+		margin: 0 15px 0 0;
+	}
+	.title h2 {
+		font-size: 26px;
+		line-height: 30px;
+		margin: 0 0 10px;
+	}
+	.title p {
+		margin: 0 0 10px;
+	}
+	.rooms_item{
+		margin-right:10px;
+		margin-bottom: 40px;
+		margin-top: 5px;
+	}
+	.map{
+		width: auto;
+		height: auto;
+	}
+	#map{
+		width: 100%;
+		height: 100%;
+	}
+	.table_heder table,
+	.table_body table,
+	.table_heder tr,
+	.table_body tr,
+	.table_heder th,
+	.table_body td{
+		display: inline-block;
+	}
+	.table_heder tr{
+		position: absolute;
+		top:-9999px;
+		left: -9999px;
+	}
+	.table_heder tr,
+	.table_body tr{
+		border-bottom: 1px solid #ededed;
+		width:100%;
+	}
+	.table_body tr:nth-child(even){
+		background-color:#f9f7f7;
+	}
+	.table_body td,
+	.table_body td:first-child{
+		position: relative;
+		padding-left: 75%;
+		width:100%;
+	}
+	.table_body td:before{
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	.table_body td:nth-of-type(1):before { content: "Секция"; }
+	.table_body td:nth-of-type(2):before { content: "Этаж"; }
+	.table_body td:nth-of-type(3):before { content: "№ на площадке"; }
+	.table_body td:nth-of-type(4):before { content: "Кол-во комнат"; }
+	.table_body td:nth-of-type(5):before { content: "Общая площадь"; }
+	.table_body td:nth-of-type(6):before { content: "Стоимостьза м2"; }
+	.table_body td:nth-of-type(7):before { content: "Стоимость квартиры"; }
+	.table_body td:nth-of-type(8):before { content: "Планировка"; }
+	.table_heder th:first-child{
+		padding-left: 0;
+	}
+}
+@media only screen and (max-width : 1023px){
+	.price_item{
+		display: block;
+		margin-left:auto;
+		margin-right:auto;
+		width:100%;
+	}
+	.price_item:first-child {
+		margin-left: auto;
+	}
+	.frame{
+		width:386px;
+		margin:0 auto;
+	}
+	.block.block_5:after{
+		display: none;
+	}
+	.section_clients{
+		width:100%;
+		margin-top:30px;
+	}
+	.section_clients:first-child{
+		margin-top:0;
+	}
+	.section_clients .hedline h3,
+	.section_clients .hedline strong{
+		text-align: center;
+		
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.heder_title h1{
+		font-size:50px;
+		line-height:50px;
+	}
+	.heder_title strong{
+		font-size:38px;
+		line-height:50px;
+		margin-bottom: 10px;
+	}
+	.block_1 .title{
+		display: none;
+	}
+	.block_1 .visual{
+		width:100%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.logo{
+		width: 85px;
+		height: 53px;
+		background-image: url(../img/logo2.png);
+		background-repeat: no-repeat;
+	}
+	.heder_title{
+		top:30%;
+	}
+	.heder_contact span{
+		font-size:20px;
+		line-height:50px;
+	}
+	.header_bottom{
+		bottom:4%;
+	}
+	.block_2 .col1:first-child,
+	.block_2 .col1:last-child{
+		float: none;
+
+	}
+	.block_2 .col1{
+		width: 100%;
+	}
+	.rooms_item{
+		margin-bottom: 25px;
+		margin-top: 26px;
+	}
+	.block_2 .col2{
+		width:100%;
+	}
+	.block_7 .hedline h3{
+		font-size:25px;
+	}
+	.block_7 .hedline strong{
+		font-size:30px;
+	}
+	.gallery2_item{
+		width:50%;
+	}
+	.block_12 .col{
+		width:100%;
+	}
+}
+@media only screen and (max-width : 680px){
+	.heder_title h1{
+		font-size:40px;
+		line-height:40px;
+	}
+	.heder_title strong{
+		font-size:28px;
+		line-height:40px;
+		margin-bottom: 10px;
+	}
+	.heder_title span{
+		font-size:14px;
+		line-height:22px;
+	}
+	.header_bottom{
+		bottom:0%;
+	}
+	.btn{
+		height:40px;
+		line-height:40px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 559px) {
+	.top_wrap {
+		padding: 15px 0 20px;
+	}
+	.heder_contact {
+		margin: 10px 0 0 0;
+	}
+	.heder_contact span {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.heder_contact a {
+		font-size: 11px;
+	}
+	.heder_title {
+		top: 20%;
+	}
+	.heder_title h1 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.heder_title strong {
+	font-size: 18px;
+	}
+	.header_button a:first-child {
+		margin-right: 0;
+	}
+	.heder_title p {
+		font-size: 15px;
+	}
+	.clients_holder .col{
+		width:100%;
+		margin-top:30px;
+	}
+	.clients_holder .col:first-child{
+		margin-top:none;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.img_gallery_tab a{
+		display: block;
+		font-size:28px;
+	}
+	.gallery2_item{
+		width:100%;
+	}
+}
+@media only screen and (max-width : 375px){
+	.rooms_item{
+		display: block;
+		width:60%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.rooms_item:nth-child(3n){
+		margin-right:auto;
+	}
+	.frame{
+		width:290px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.heder_title h1 {
+		font-size: 20px;
+		line-height: 40px;
+	}
+	.quick_selection a{
+		font-size:13px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
