@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>EA1044BB-B0A1-4A03-A5E3-60C9628AA6C8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="40" height="40" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home/typical_page_1440" transform="translate(-1200.000000, -1585.000000)">
+            <g id="footer" transform="translate(0.000000, 1569.000000)">
+                <g id="Group-6" transform="translate(1032.000000, 16.000000)">
+                    <g id="Group-9" transform="translate(168.000000, 0.000000)">
+                        <path d="M9,15.9911656 C9,12.1300515 12.1286997,9 15.9911656,9 L24.0088344,9 C27.8699485,9 31,12.1286997 31,15.9911656 L31,24.0088344 C31,27.8699485 27.8713003,31 24.0088344,31 L15.9911656,31 C12.1300515,31 9,27.8713003 9,24.0088344 L9,15.9911656 Z M11,15.9911656 L11,24.0088344 C11,26.7662041 13.2340942,29 15.9911656,29 L24.0088344,29 C26.7662041,29 29,26.7659058 29,24.0088344 L29,15.9911656 C29,13.2337959 26.7659058,11 24.0088344,11 L15.9911656,11 C13.2337959,11 11,13.2340942 11,15.9911656 Z M15,20 C15,17.2385763 17.2441952,15 20,15 C22.7614237,15 25,17.2441952 25,20 C25,22.7614237 22.7558048,25 20,25 C17.2385763,25 15,22.7558048 15,20 Z M17,20 C17,21.6535232 18.3454324,23 20,23 C21.6535232,23 23,21.6545676 23,20 C23,18.3464768 21.6545676,17 20,17 C18.3464768,17 17,18.3454324 17,20 Z M25.75,16 C26.4403559,16 27,15.4403559 27,14.75 C27,14.0596441 26.4403559,13.5 25.75,13.5 C25.0596441,13.5 24.5,14.0596441 24.5,14.75 C24.5,15.4403559 25.0596441,16 25.75,16 Z" id="ic_instagram" fill="#231f20"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

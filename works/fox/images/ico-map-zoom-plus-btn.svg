@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="20"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Map/map_point_1440" transform="translate(-562.000000, -545.000000)">
+            <g id="Group-7" transform="translate(552.000000, 248.000000)">
+                <g id="Group-5" transform="translate(16.000000, 244.000000)">
+                    <g id="Oval2" transform="translate(0.000000, 56.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M21,19 L21,13.0008717 C21,12.4446309 20.5522847,12 20,12 C19.4438648,12 19,12.4481055 19,13.0008717 L19,19 L13.0008717,19 C12.4446309,19 12,19.4477153 12,20 C12,20.5561352 12.4481055,21 13.0008717,21 L19,21 L19,26.9991283 C19,27.5553691 19.4477153,28 20,28 C20.5561352,28 21,27.5518945 21,26.9991283 L21,21 L26.9991283,21 C27.5553691,21 28,20.5522847 28,20 C28,19.4438648 27.5518945,19 26.9991283,19 L21,19 Z" id="Combined-Shape" fill="#231F20" fill-rule="evenodd"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

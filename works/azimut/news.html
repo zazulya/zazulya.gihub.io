@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=no"/>
+		<title>Азимут</title>
+		<link rel="icon" href="images/favicon.png"/>
+		<!--build:css css/styles.min.css-->
+		<link rel="stylesheet" href="css/constant.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+		<!-- endbuild -->
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="header">
+				<div class="mb-visible mb-header-panel">
+					<div class="opener-nav"><span></span></div>
+					<span class="logo">Авиакомпания</span>
+				</div>
+				<div class="header-holder">
+					<div class="center">
+						<div class="header-top-panel">
+							<div class="header-contact">
+								<form action="#" class="citiy-select-wrap">
+									<select class="select select-citiy">
+										<option selected="selected" value="1">Ростов-на-Дону</option>
+										<option value="2">Ростов-на-Дону2</option>
+										<option value="3">Ростов-на-Дону3</option>
+									</select>
+								</form>
+								<div class="tel">8 (800) 2000-600</div>
+							</div>
+							<div class="header-user">
+								<div class="header-lang">
+									<a class="lang" href="">English</a>
+								</div>
+								<div class="user">
+									<div class="ico" style="background-image: url(images/bg-user.png);"></div>
+								</div>
+								<a class="enter" href="">Вход</a>
+							</div>
+						</div>
+						<div class="header-block">
+							<div class="header-nav-wrap">
+								<div class="opener-nav mb-hidden"><span></span></div>
+								<div class="header-nav-drop">
+									<form class="header-search" action="#">
+										<input placeholder="Поиск по сайту" type="text">
+										<button class="search-btn" type="submit"></button>
+									</form>
+									<div class="row">
+										<div class="col col33 tb-col100 header-service-col mb-hidden">
+											<h3>Сервисы</h3>
+											<ul class="services-list">
+												<li><a class="ticket-search" href="">Поиск билетов</a></li>
+												<li><a class="booking-hotel" href="">Бронирование отеля</a></li>
+												<li><a class="car-rent" href="">Аренда автомобиля</a></li>
+											</ul>
+										</div>
+										<div class="col col66 tb-col100">
+											<div class="row">
+												<div class="col col25 tb-col33 mb-visible mb-col100">
+													<h3><a href="">Главная</a></h3>
+												</div>
+												<div class="col col25 tb-col33 mb-col100">
+													<h3><a href="">Пассажирам</a><span class="opener-accordion mb-visible"></span></h3>
+													<ul class="menu-list">
+														<li><a href="">Бронирование авиабилетов</a></li>
+														<li><a href="">Правила и условия возврата</a></li>
+														<li><a href="">Правила и условия обмена</a></li>
+														<li><a href="">Правила перевозок</a></li>
+													</ul>
+												</div>
+												<div class="col col25 tb-col33 mb-col100">
+													<h3><a href="">Услуги</a><span class="opener-accordion mb-visible"></span></h3>
+													<ul class="menu-list">
+														<li><a href="">Перевозка грузов</a></li>
+														<li><a href="">Заказ чартерного рейса</a></li>
+														<li><a href="">Добровольное страхование</a></li>
+													</ul>
+												</div>
+												<div class="col col25 tb-col33 mb-col100">
+													<h3><a href="">О компании</a><span class="opener-accordion mb-visible"></span></h3>
+													<ul class="menu-list">
+														<li><a href="">Азимут</a></li>
+														<li><a href="">Новости</a></li>
+														<li><a href="">Вакансии</a></li>
+														<li><a href="">Агентам</a></li>
+														<li><a href="">Флот</a></li>
+														<li><a href="">Карта полетов</a></li>
+														<li><a href="">Конфиденциальность</a></li>
+													</ul>
+												</div>
+												<div class="col col25 tb-col66 has-tb-top-margin mb-col100">
+													<h3><a href="">Контакты</a><span class="opener-accordion mb-visible"></span></h3>
+													<ul class="menu-list">
+														<li><a href="tel:88002000600">8 (800) 2000-600</a></li>
+														<li><a href="tel:88002000700">8 (800) 2000-700</a></li>
+														<li><a href="mailto:hello@azimuth.aero">hello@azimuth.aero</a></li>
+														<li><a href="">Отправить сообщение</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<span class="logo mb-hidden">Авиакомпания</span>
+							<div class="header-info-list mb-hidden">
+								<a class="link-scoreboard" href="">Табло вылетов</a>
+								<a class="link-online" href="">Онлайн-регистрация</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="inner-bg" style="background-image: url(images/bg-inner.jpg);"></div>
+				<div class="center tab-center">
+					<div class="main-order-form-wrap inner-order-form-wrap">
+						<div class="main-order-tab-set">
+							<a class="ticket-search " href=""><span class="ico"></span> <span class="mb-hidden">Поиск билетов</span><span class="mb-visible">Билеты</span></a>
+							<a class="booking-hotel disabled" href=""><span class="ico"></span> <span class="mb-hidden">Бронирование отеля</span><span class="mb-visible">Отели</span></a>
+							<a class="car-rent disabled" href=""><span class="ico"></span>  <span class="mb-hidden">Аренда автомобиля</span><span class="mb-visible">Аренда авто</span></a>
+						</div>
+						<div class="main-order-tab-body">
+							<div class="main-order-tab">
+								<form class="main-order-form has-tb-bottom-padding" action="#">
+									<div class="row">
+										<div class="col col33 tb-col50 mb-col100">
+											<select style="width:100%" placeholder="Откуда" class="select">
+											  <option></option>
+											  <option selected="selected" value="1">Ростов-на-Дону</option>
+											  <option value="2">Ростов-на-Дону2</option>
+											  <option value="3">Ростов-на-Дону3</option>
+											</select>
+										</div>
+										<div class="col col33 tb-col50 mb-col100">
+											<select style="width:100%" placeholder="Куда" class="select">
+											  <option></option>
+											  <option value="1">Ростов-на-Дону</option>
+											  <option value="2">Ростов-на-Дону2</option>
+											  <option value="3">Ростов-на-Дону3</option>
+											</select>
+										</div>
+										<div class="col col33 tb-col50 mb-col100 tb-col tb-col-left сhoice-daterange-wrapper">
+											<div class="daterange-wrap active-сhoice-daterange">
+												<input name="daterange_range" placeholder="Дата" class="daterange" type="text">
+												<span class="mb-clear"></span>
+											</div>
+											<div class="daterange-wrap">
+												<input name="daterange_single" placeholder="Дата" class="daterange daterange-single" type="text">
+												<span class="mb-clear"></span>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col25 tb-col33 mb-col100">
+											<div class="order-ticket-wrap">
+												<div class="title">
+													<div class="name">Взрослые</div>
+													<div class="age">от 12 лет</div>
+												</div>
+												<div class="quantity">
+													<input type="text" value="0">
+													<div class="quantity-btn">
+														<span class="btn-quantity minus">−</span>
+														<span class="btn-quantity plus">+</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col col25 tb-col33 mb-col100">
+											<div class="order-ticket-wrap">
+												<div class="title">
+													<div class="name">Дети</div>
+													<div class="age">до 12 лет</div>
+												</div>
+												<div class="quantity">
+													<input type="text" value="0">
+													<div class="quantity-btn">
+														<span class="btn-quantity minus">−</span>
+														<span class="btn-quantity plus">+</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col col25 tb-col33 mb-col100">
+											<div class="order-ticket-wrap">
+												<div class="title">
+													<div class="name">Младенцы</div>
+													<div class="age">до 2 лет</div>
+												</div>
+												<div class="quantity">
+													<input type="text" value="0">
+													<div class="quantity-btn">
+														<span class="btn-quantity minus">−</span>
+														<span class="btn-quantity plus">+</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col col25 tb-col50 mb-col100 tb-col tb-col-right">
+											<button type="submit" class="btn btn-orange">Найти билеты</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="main-order-tab">
+								<form class="main-order-form" action="#">
+									
+								</form>
+							</div>
+							<div class="main-order-tab">
+								<form class="main-order-form" action="#">
+									
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="center">
+					<div class="row">
+						<div class="col col75 tb-col100">
+							<ul class="bread-crumbs">
+								<li><a href="">Главная</a></li>
+								<li>Новости</li>
+							</ul>
+							<h1>Новости</h1>
+							<div class="news-date">27 апреля</div>
+							<h2>Бесплатные авиабилеты для ветеранов ВОВ</h2>
+							<p class="description">Позиционирование на рынке недостижимо. Поисковая реклама откровенно цинична. Медиа, в рамках сегодняшних воззрений, усиливает потребительский рынок, оптимизируя бюджеты. Эволюция мерчандайзинга интегрирована.</p>
+							<div class="img-align-center">
+								<img src="images/img15.jpg" alt="">
+							</div>
+							<p>Восприятие марки упорядочивает конвергентный портрет потребителя. Партисипативное планирование восстанавливает тактический SWOT-анализ. Конкурентоспособность, на первый взгляд, выражена наиболее полно. Контент, согласно Ф.Котлеру, версифицирован.</p>
+							<p>Позиционирование на рынке недостижимо. Поисковая реклама откровенно цинична. Медиа, в рамках сегодняшних воззрений, усиливает потребительский рынок, оптимизируя бюджеты. Эволюция мерчандайзинга интегрирована. По сути, маркетингово-ориентированное издание естественно концентрирует сегмент рынка. Маркетингово-ориентированное издание, безусловно, ускоряет формирование имиджа. Еще Траут показал, что стратегия сегментации тормозит баинг и селлинг.</p>
+							<p>Восприятие марки упорядочивает конвергентный портрет потребителя. Партисипативное планирование восстанавливает тактический SWOT-анализ. Конкурентоспособность, на первый взгляд, выражена наиболее полно. Контент, согласно Ф.Котлеру, версифицирован.</p>
+							<br class="mb-hidden"/>
+							<br class="mb-hidden"/>
+							<br class="mb-hidden"/>
+							<br class="mb-hidden"/>
+							<div class="row network-list">
+								<div class="col col25 tb-col50 mb-col100"><a class="vk" href="">Поделиться</a></div>
+								<div class="col col25 tb-col50 mb-col100"><a class="fb" href="">Поделиться</a></div>
+								<div class="col col25 tb-col50 mb-col100"><a class="tw" href="">Твитнуть</a></div>
+								<div class="col col25 tb-col50 mb-col100"><a class="gp" href="">Добавить</a></div>
+							</div>
+							<br class="mb-hidden"/>
+							<hr/>
+							<br class="mb-hidden"/>
+							<div class="btn-wrap-article align-center"><a class="btn btn-orange btn-transparent btn-small" href="">Все новости</a></div>
+							<br/>
+							<br/>
+						</div>
+						<div class="col col25 aside tb-col100">
+							<ul class="aside-nav tb-hidden">
+								<li><a href="">Азимут</a></li>
+								<li><a href="">Контакты</a></li>
+								<li class="active"><a href="">Новости</a></li>
+								<li><a href="">Вакансии</a></li>
+								<li><a href="">Агентам</a></li>
+								<li><a href="">Флот</a></li>
+								<li><a href="">Карта полетов</a></li>
+								<li><a href="">Конфиденциальность</a></li>
+							</ul>
+							<h3>Спецпредложения</h3>
+							<div class="offers-wrap">
+								<a class="link" href=""></a>
+								<div class="visual" style="background-image: url(images/img02.jpg);"></div>
+								<div class="text">
+									<div class="name">Санкт-Петербург</div>
+									<div class='date'>15 мая</div>
+								</div>
+								<div class="price">от <span class="num">5 920</span> Р</div>
+							</div>
+							<div class="offers-wrap">
+								<a class="link" href=""></a>
+								<div class="visual" style="background-image: url(images/img03.jpg);"></div>
+								<div class="text">
+									<div class="name">Севастополь</div>
+									<div class='date'>20 мая</div>
+								</div>
+								<div class="price">от <span class="num">3 470</span> Р</div>
+							</div>
+							<ul class="offers-list">
+								<li>
+									<a class="link" href=""></a>
+									<div class="visual" style="background-image: url(images/img04.jpg);"></div>
+									<div class="holder">
+										<div class="name">Ереван</div>
+										<div class="text">
+											17 мая, от <span class="num">5 920</span> Р
+										</div>
+									</div>
+								</li>
+								<li>
+									<a class="link" href=""></a>
+									<div class="visual" style="background-image: url(images/img05.jpg);"></div>
+									<div class="holder">
+										<div class="name">Абакан</div>
+										<div class="text">
+											17 мая, от <span class="num">3 720</span> Р
+										</div>
+									</div>
+								</li>
+								<li>
+									<a class="link" href=""></a>
+									<div class="visual" style="background-image: url(images/img06.jpg);"></div>
+									<div class="holder">
+										<div class="name">Казань</div>
+										<div class="text">
+											17 мая, от <span class="num">4 950</span> Р
+										</div>
+									</div>
+								</li>
+								<li>
+									<a class="link" href=""></a>
+									<div class="visual" style="background-image: url(images/img07.jpg);"></div>
+									<div class="holder">
+										<div class="name">Выборг</div>
+										<div class="text">
+											17 мая, от <span class="num">3 920</span> Р
+										</div>
+									</div>
+								</li>
+								<li>
+									<a class="link" href=""></a>
+									<div class="visual" style="background-image: url(images/img08.jpg);"></div>
+									<div class="holder">
+										<div class="name">Астрахань</div>
+										<div class="text">
+											17 мая, от <span class="num">3 150</span> Р
+										</div>
+									</div>
+								</li>
+							</ul>
+							<br class="bt-visible" />
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer-menu-wrap mb-hidden">
+					<div class="center">
+						<div class="row">
+							<div class="col col25 tb-col33">
+								<h3><a href="">Пассажирам</a></h3>
+								<ul class="menu-list">
+									<li><a href="">Бронирование авиабилетов</a></li>
+									<li><a href="">Правила и условия возврата</a></li>
+									<li><a href="">Правила и условия обмена</a></li>
+									<li><a href="">Правила перевозок</a></li>
+								</ul>
+							</div>
+							<div class="col col25 tb-col33">
+								<h3><a href="">Услуги</a></h3>
+								<ul class="menu-list">
+									<li><a href="">Перевозка грузов</a></li>
+									<li><a href="">Заказ чартерного рейса</a></li>
+									<li><a href="">Добровольное страхование</a></li>
+								</ul>
+							</div>
+							<div class="col col25 tb-col33">
+								<h3><a href="">О компании</a></h3>
+								<ul class="menu-list">
+									<li><a href="">Азимут</a></li>
+									<li><a href="">Новости</a></li>
+									<li><a href="">Вакансии</a></li>
+									<li><a href="">Агентам</a></li>
+									<li><a href="">Флот</a></li>
+									<li><a href="">Карта полетов</a></li>
+									<li><a href="">Конфиденциальность</a></li>
+								</ul>
+							</div>
+							<div class="col col25 tb-col66 has-tb-top-margin">
+								<h3><a href="">Контакты</a></h3>
+								<ul class="menu-list">
+									<li><a href="tel:88002000600">8 (800) 2000-600</a></li>
+									<li><a href="tel:88002000700">8 (800) 2000-700</a></li>
+									<li><a href="mailto:hello@azimuth.aero">hello@azimuth.aero</a></li>
+									<li><a href="">Отправить сообщение</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-network-wrap">
+					<div class="center">
+						<div class="row">
+							<div class="col col50 mb-col100">
+								<div class="copyright">2017 &copy; Azimuth. Все права защищены</div>
+							</div>
+							<div class="col col50 mb-col100">
+								<ul class="footer-network">
+									<li><a href="">Facebook</a></li>
+									<li><a href="">Instagram</a></li>
+									<li><a href="">Vkontakte</a></li>
+									<li><a href="">Twitter</a></li>
+									<li><a href="">LinkedIn</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!--build:js js/main.min.js -->
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/select2.full.min.js"></script>
+		<script type="text/javascript" src="js/moment.min.js"></script>
+		<script type="text/javascript" src="js/jquery.daterangepicker.min.js"></script>
+		<script type="text/javascript" src="js/jquery.main.js"></script>
+		<!-- endbuild -->
+	</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=no" />
+		<title>LunchFox</title>
+		<link rel="icon" href="images/favicon.png">
+		<!--build:css css/styles.min.css-->
+		<link rel="stylesheet" href="css/all.css">
+		<!-- endbuild -->
+	</head>
+	<body>
+		<div id="wrapper">
+			<header class="header-fixed">
+				<div id="header">
+					<div class="container">
+						<a class="hidden-md hidden-lg opener-nav" href=""><span></span></a>
+						<ul class="header__aside header__aside--settings">
+							<li><a class="basket" href="" data-toggle="modal" data-target="#popup-basket"></a></li>
+							<li class="active"><a class="profile" href=""></a></li>
+						</ul>
+						<div class="nav-wrapper">
+							<span class="nav-back hidden-md hidden-lg"><span class="arrow"></span></span>
+							<div class="nav-overflow">
+								<nav id="nav">
+									<ul>
+										<li><a href="">Как это работает</a></li>
+										<li><a href="">О нас</a></li>
+										<li><a href="">FAQ</a></li>
+										<li><a href="">Обратная связь</a></li>
+									</ul>
+								</nav>
+								<ul class="header__aside header__aside--nav">
+									<li class="tel visible-md visible-lg"><a href="tel:+78124223344">+7 (812) 422-33-44</a></li>
+									<li><a href="">Меню</a></li>
+									<li><a href="">Доставка</a></li>
+								</ul>
+							</div>
+							<div class="tel hidden-md hidden-lg"><a href="tel:+78124223344">+7 (812) 422-33-44</a></div>
+						</div>
+						<a href="#" class="header__logo"></a>
+					</div>
+					<span class="header-overlay"></span>
+				</div>
+			</header>
+			<main id="main">
+				<form action="#" class="container">
+					<ul class="bread-crumbs">
+						<li><a href="">Главная</a></li>
+						<li>Профиль</li>
+					</ul>
+					<h1 class="head">Профиль</h1>
+					<div class="row">
+						<div class="col-md-3 col-sm-12">
+							<div class="widget">
+								<ul class="profile-nav-list profile-nav-list--drop">
+									<li><a href="">мои данные</a></li>
+									<li class="active"><a href="">бумажник</a></li>
+									<li><a href="">мои заказы</a></li>
+									<li><a href="">Избранное</a></li>
+									<li><a href="">пригласить друзей</a></li>
+									<li><a href="">Уведомления</a></li>
+									<li class="log-out"><a href="" data-toggle="modal" data-target="#popup-log-out">выйти</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-9 col-sm-12">
+							<div class="widget">
+								<div class="widget-header">
+									<h2>Добавить карту</h2>
+								</div>
+								<div class="row row-indent">
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label class="form-label">Номер карты</label>
+											<input type="text" class="form-control form-control--card" placeholder="0000 0000 0000 0000">
+											<span class="error-note">Поле заполненно не верно</span>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label class="form-label">Тип карты</label>
+											<div class="select-wrap">
+												<select class="select">
+													<option delected value="visa">Visa</option>
+													<option value="mastercard">Master Card</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row row-indent">
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label class="form-label">Имя владельца</label>
+											<input type="text" class="form-control" placeholder="имя" value="PETROV">
+											<span class="error-note">Поле заполненно не верно</span>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label class="form-label">Срок действия</label>
+											<div class="row">
+												<div class="col-sm-6 col-xs-6">
+													<div class="select-wrap">
+														<select class="select">
+															<option delected class="label" value="NaN">Месяц</option>
+															<option value="1">январь</option>
+															<option value="2">февраль</option>
+															<option value="3">март</option>
+															<option value="4">апрель</option>
+															<option value="5">май</option>
+															<option value="6">июнь</option>
+															<option value="7">июль</option>
+															<option value="8">август</option>
+															<option value="9">сентябрь</option>
+															<option value="10">октябрь</option>
+															<option value="11">ноябрь</option>
+															<option value="12">декабрь</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-sm-6 col-xs-6">
+													<div class="select-wrap">
+														<select class="select">
+															<option delected class="label" value="NaN">Год</option>
+															<option value="2001">2001</option>
+															<option value="2002">2002</option>
+															<option value="2003">2003</option>
+															<option value="2004">2004</option>
+															<option value="2005">2005</option>
+															<option value="2006">2006</option>
+															<option value="2007">2007</option>
+															<option value="2008">2008</option>
+															<option value="2009">2009</option>
+															<option value="2010">2010</option>
+															<option value="2011">2011</option>
+															<option value="2012">2012</option>
+															<option value="2013">2013</option>
+															<option value="2014">2014</option>
+															<option value="2015">2015</option>
+															<option value="2016">2016</option>
+															<option value="2017">2017</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label class="form-label">Секретный код (CVV)</label>
+											<input type="text" class="form-control form-control--cvv" placeholder="123">
+											<span class="error-note">Поле заполненно не верно</span>
+										</div>
+									</div>
+								</div>
+								<div class="row row-indent">
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label class="form-label">Адрес</label>
+											<input type="text" class="form-control" placeholder="Улица, Дом">
+											<span class="error-note">Поле заполненно не верно</span>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label class="form-label">Город</label>
+											<input type="text" class="form-control" placeholder="Город">
+											<span class="error-note">Поле заполненно не верно</span>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label class="form-label">Индекс</label>
+											<input type="text" class="form-control form-control--index" placeholder="123456">
+											<span class="error-note">Поле заполненно не верно</span>
+										</div>
+									</div>
+								</div>
+								<div class="row row-indent">
+									<div class="col-sm-4">
+										<label class="form-label margin-top-4">Страна/регион</label>
+									</div>
+									<div class="col-sm-4">
+										<span class="form-label margin-top-4">Россия</span>
+									</div>
+								</div>
+								<hr class="margin-top-24 margin-bottom-24"/>
+								<div class="row row-indent">
+									<div class="col-sm-12">
+										<div class="form-group">
+											<label class="checkbox">
+												<input type="checkbox" checked="checked">
+												<span>Выбрать как стандартный способ оплаты</span>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="row row-indent">
+									<div class="col-sm-4">
+										<div class="form-group">
+											<button class="btn" type="button">сохранить</button>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+											<button class="btn btn--transparent" type="button">Отмена</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</main>
+			<footer id="footer">
+				<div class="container">
+					<div class="copyright">&copy; 2016  Lunch Fox. Все права защищены</div>
+					<ul class="network-list">
+						<li><a class="vk" href=""></a></li>
+						<li><a class="fb" href=""></a></li>
+						<li><a class="od" href=""></a></li>
+						<li><a class="im" href=""></a></li>
+					</ul>
+					<div class="footer__contact">
+						<address class="address">Санкт-Петербург, Манчестерская ул., д. 2</address>
+						<div class="tel"><a href="tel:88002255225">8 800 225 52 25</a></div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- Modal -->
+		<div class="modal modal--popup modal--basket fade" id="popup-basket">
+		  <form action="#" class="modal-dialog">
+		  	<button type="button" class="close" data-dismiss="modal"></button>
+		    <div class="modal-content">
+				<ul class="item-list">
+					<li>
+						<div class="item-img" style="background-image: url('images/temp/img02.jpg');"></div>
+						<div class="item-set">
+							<div class="select-wrap select--num">
+								<select class="select">
+									<option selected value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+								</select>
+							</div>
+							<button type="button" class="remove btn btn--transparent btn--event"></button>
+						</div>
+						<div class="item-holder">
+							<div class="item-wrap">
+								<div class="item-cat">Горячее</div>
+								<div class="item-name">Чили кон карне</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-img" style="background-image: url('images/temp/img03.jpg');"></div>
+						<div class="item-set">
+							<div class="select-wrap select--num">
+								<select class="select">
+									<option selected value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+								</select>
+							</div>
+							<button type="button" class="remove btn btn--transparent btn--event"></button>
+						</div>
+						<div class="item-holder">
+							<div class="item-wrap">
+								<div class="item-cat">Горячее</div>
+								<div class="item-name">Бефстроганов из говядины</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-img" style="background-image: url('images/temp/img04.jpg');"></div>
+						<div class="item-set">
+							<div class="select-wrap select--num">
+								<select class="select">
+									<option selected value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+								</select>
+							</div>
+							<button type="button" class="remove btn btn--transparent btn--event"></button>
+						</div>
+						<div class="item-holder">
+							<div class="item-wrap">
+								<div class="item-cat">Напиток</div>
+								<div class="item-name">Липонад</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+		    </div>
+		    <div class="modal-content">
+		    	<div class="modal-order-btn-row">
+		    		<div class="total-wrap">
+		    			<div class="title">Всего к оплате</div>
+		    			<div class="price">572 руб.</div>
+		    		</div>
+		    		<div class="btn-holder">
+		    			<button type="button" class="btn">Оформить заказ</button>
+		    		</div>
+		    	</div>
+		    </div>
+		  </form>
+		</div>
+		<div class="modal modal--popup modal--profile fade" id="popup-profileNav">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal"></button>
+				<div class="modal-content">
+					<ul class="profile-nav-list">
+						<li class="active"><a href="">мои данные</a></li>
+						<li><a href="">бумажник</a></li>
+						<li><a href="">мои заказы</a></li>
+						<li><a href="">Избранное</a></li>
+						<li><a href="">пригласить друзей</a></li>
+						<li><a href="">Уведомления</a></li>
+						<li class="log-out"><a href="" data-toggle="modal" data-target="#popup-log-out">выйти</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="popup-notification">
+		  <form action="#" class="modal-dialog">
+		  	<button type="button" class="close" data-dismiss="modal"></button>
+		    <div class="modal-content">
+				<div class="popup-notification-wrapper">
+					<span class="notification--ico"><img src="../images/ico-popup-checked.svg" alt=""></span>
+					<h3>Спасибо!</h3>
+					<p>Ваш заказ оформлен. <br> Ожидайте еду в течении 10 минут.</p>
+				</div>
+				<div class="popup-notification-wrapper">
+					<span class="notification--ico"><img src="../images/ico-popup-close.svg" alt=""></span>
+					<h3>Ошибка</h3>
+					<p>Что-то пошло не так. <br> Попробуйте оформить заказ повторно.</p>
+					<button class="btn" type="button" data-dismiss="modal">вернуться в корзину</button>
+				</div>
+		    </div>
+		  </form>
+		</div>
+		<div class="modal fade" id="popup-log-out">
+		  <div class="modal-dialog">
+		  	<button type="button" class="close" data-dismiss="modal"></button>
+		    <div class="modal-content">
+				<div class="popup-notification-wrapper">
+					<h3>Выход</h3>
+					<p>Вы действительно хотите выйти из профиля?</p>
+					<a href="" class="btn">Выйти</a>
+				</div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="popup-network">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal"></button>
+				<div class="modal-content">
+					<div class="popup-notification-wrapper popup-notification-wrapper--enter">
+						<h3>добавить социальную сеть</h3>
+						<ul class="network-list network-list--active">
+							<li><a class="vk" href=""></a></li>
+							<li><a class="fb" href=""></a></li>
+							<li><a class="gp" href=""></a></li>
+							<li><a class="tw" href=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="popup-profile-remove">
+		  <div class="modal-dialog">
+		  	<button type="button" class="close" data-dismiss="modal"></button>
+		    <div class="modal-content">
+				<div class="popup-notification-wrapper">
+					<h3>Удалить профиль</h3>
+					<p>Вы действительно хотите удалить профиль?</p>
+					<button class="btn" type="button" data-dismiss="modal">Удалить</button>
+				</div>
+		    </div>
+		  </div>
+		</div>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<!--build:js js/main.min.js -->
+		<script type="text/javascript" src="bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/core.js"></script>
+		<script type="text/javascript" src="js/scrollbar.js"></script>
+		<script type="text/javascript" src="js/touch.js"></script>
+		<script type="text/javascript" src="js/dropdown.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- endbuild -->
+	</body>
+</html>

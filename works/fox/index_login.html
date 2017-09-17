@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=no" />
+		<title>LunchFox</title>
+		<link rel="icon" href="images/favicon.png">
+		<!--build:css css/styles.min.css-->
+		<link rel="stylesheet" href="css/all.css">
+		<!-- endbuild -->
+	</head>
+	<body>
+		<div id="wrapper" class="index">
+			<header class="header-fixed">
+				<div id="header">
+					<div class="container">
+						<a class="hidden-md hidden-lg opener-nav" href=""><span></span></a>
+						<ul class="header__aside header__aside--settings">
+							<li><a class="basket" href="" data-toggle="modal" data-target="#popup-basket"></a></li>
+							<li><a class="profile" href="" data-toggle="modal" data-target="#popup-enter"></a></li>
+						</ul>
+						<div class="nav-wrapper">
+							<span class="nav-back hidden-md hidden-lg"><span class="arrow"></span></span>
+							<div class="nav-overflow">
+								<nav id="nav">
+									<ul>
+										<li><a href="">Как это работает</a></li>
+										<li><a href="">О нас</a></li>
+										<li><a href="">FAQ</a></li>
+										<li><a href="">Обратная связь</a></li>
+									</ul>
+								</nav>
+								<ul class="header__aside header__aside--nav">
+									<li class="tel visible-md visible-lg"><a href="tel:+78124223344">+7 (812) 422-33-44</a></li>
+									<li><a href="">Меню</a></li>
+									<li><a href="">Доставка</a></li>
+								</ul>
+							</div>
+							<div class="tel hidden-md hidden-lg"><a href="tel:+78124223344">+7 (812) 422-33-44</a></div>
+						</div>
+						<span class="header__logo"></span>
+					</div>
+					<span class="header-overlay"></span>
+				</div>
+			</header>
+			<main id="main">
+				<div class="main-promo" style="background-image: url(images/bg-index-promo.jpg);">
+					<div class="container">
+						<div class="main-promo__content">
+							<div class="main-promo__logo"></div>
+							<div class="text">Первый в России сервис</div>
+							<div class="slogan"><span>моментальной доставки</span></div>
+							<div class="text"><div>вкусной и свежей еды</div><div>ресторанного уровня</div></div>
+						</div>
+					</div>
+				</div>
+				<div class="main-faq">
+					<div class="container">
+						<h1 class="head">Как за <strong>15 минут</strong> <br class="visible-xs"> получить готовую еду?</h1>
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="item">
+									<div class="item-img"><img src="images/ico-faq01.svg" alt=""></div>
+									<div class="text">Вы сделали <strong>заказ</strong></div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="item">
+									<div class="item-img"><img src="images/ico-faq02.svg" alt=""></div>
+									<div class="text">Незаметно пролетели <strong>10 минут</strong></div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="item">
+									<div class="item-img"><img src="images/ico-faq03.svg" alt=""></div>
+									<div class="text">Ароматная и свежая <strong>еда</strong> <br> <strong>у вас в руках</strong></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main-order">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="item">
+									<div class="item-img item-img--md"><img src="images/ico-order01.png" alt=""></div>
+									<div class="text">
+										<div class="title title--black"><div>Ознакомиться</div><div>с перечнем блюд</div></div>
+										<a class="btn btn--big" href="">меню</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="item">
+									<div class="item-img"><img src="images/ico-order02.png" alt=""></div>
+									<div class="text">
+										<div class="title"><div>Посмотреть весь</div><div>транспорт</div></div>
+										<a class="btn btn--big" href="">территория доставки</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-wrapper">
+					<div class="container">
+						<h1 class="head">Наши преимущества</h1>
+						<ul class="advantages-list">
+							<li>
+								<div class="item-img"><img src="images/img-advantages01.png" alt=""></div>
+								<div class="holder">
+									<div class="title">Интересный вкус</div>
+									<div class="text"><p>Если еда доставляется быстро, она не должна быть простой и однообразной. Наше меню разработано шефом ресторана и это настоящая авторская кухня.</p></div>
+								</div>
+							</li>
+							<li>
+								<div class="item-img"><img src="images/img-advantages02.png" alt=""></div>
+								<div class="holder">
+									<div class="title">скорость</div>
+									<div class="text"><p>Мы готовим еду, упаковываем в герметичные контейнеры и передаем службе доставки. Машины передвигаются по улицам города, ожидая ваших заказов.</p></div>
+								</div>
+							</li>
+							<li>
+								<div class="item-img"><img src="images/img-advantages03.png" alt=""></div>
+								<div class="holder">
+									<div class="title">Качество</div>
+									<div class="text"><p>Упаковка хорошо продумана. <br> Она сохраняет свежесть и просто радует.</p></div>
+								</div>
+							</li>
+							<li>
+								<div class="item-img"><img src="images/img-advantages04.png" alt=""></div>
+								<div class="holder">
+									<div class="title">Счастье</div>
+									<div class="text"><p>Мы собрали все плюсы доставки еды в одном сервисе, чтобы вы могли сказать: «Это именно то, чего не хватало для полного счастья».</p></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="order-promo" style="background-image: url(images/bg-order-promo.jpg);">
+					<div class="container">
+						<div class="main-promo__logo"></div>
+						<h1 class="head">Поспешите сделать заказ уже сейчас</h1>
+						<div class="btn-wrap"><a class="btn btn--big" href="">ЗАКАЗАть</a></div>
+					</div>
+				</div>
+				<div class="main-questions">
+					<div class="container">
+						<h1 class="head">Часто возникающие вопросы</h1>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="item">
+									<div class="num num1"><span>1</span></div>
+									<div class="wrap">
+										<div class="title">Почему в меню можно выбрать только из двух блюд?</div>
+										<p>Меню обновляется ежедневно и каждый день у вас есть выбор из двух горячих блюд. Мы ограничиваем выбор дня таким образом, чтобы нужное количество порций помещалось в машины доставки.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 main-questions-col-2">
+								<div class="item">
+									<div class="num num2"><span>2</span></div>
+									<div class="wrap">
+										<div class="title">Как готовая еда остается свежей, находясь в машине?</div>
+										<p>Наша доставка работает в определенные часы в определенной части города. Это позволяет быстро развозить заказы и возвращаться за новыми порциями. Еда находится в машине всего пару часов.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 main-questions-col-3">
+								<div class="item">
+									<div class="num num3"><span>3</span></div>
+									<div class="wrap">
+										<div class="title">Вы правда доставляете заказы за 10 минут?</div>
+										<p>Да, потому что мы работаем в центре города в обеденные часы и в спальных районах в вечернее время. В центре все близко, а вечером в спальных районах меньше пробок.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="btn-wrap"><a class="btn btn--big" href="">Lunch Fox в подробностях</a></div>
+					</div>
+				</div>
+			</main>
+			<footer id="footer">
+				<div class="container">
+					<div class="copyright">&copy; 2016  Lunch Fox. Все права защищены</div>
+					<ul class="network-list">
+						<li><a class="vk" href=""></a></li>
+						<li><a class="fb" href=""></a></li>
+						<li><a class="od" href=""></a></li>
+						<li><a class="im" href=""></a></li>
+					</ul>
+					<div class="footer__contact">
+						<address class="address">Санкт-Петербург, Манчестерская ул., д. 2</address>
+						<div class="tel"><a href="tel:88002255225">8 800 225 52 25</a></div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- Modal -->
+		<div class="modal modal--popup modal--basket fade" id="popup-basket">
+		  <form action="#" class="modal-dialog">
+		  	<button type="button" class="close" data-dismiss="modal"></button>
+		    <div class="modal-content">
+				<ul class="item-list">
+					<li>
+						<div class="item-img" style="background-image: url('images/temp/img02.jpg');"></div>
+						<div class="item-set">
+							<div class="select-wrap select--num">
+								<select class="select">
+									<option selected value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+								</select>
+							</div>
+							<button type="button" class="remove btn btn--transparent btn--event"></button>
+						</div>
+						<div class="item-holder">
+							<div class="item-wrap">
+								<div class="item-cat">Горячее</div>
+								<div class="item-name">Чили кон карне</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-img" style="background-image: url('images/temp/img03.jpg');"></div>
+						<div class="item-set">
+							<div class="select-wrap select--num">
+								<select class="select">
+									<option selected value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+								</select>
+							</div>
+							<button type="button" class="remove btn btn--transparent btn--event"></button>
+						</div>
+						<div class="item-holder">
+							<div class="item-wrap">
+								<div class="item-cat">Горячее</div>
+								<div class="item-name">Бефстроганов из говядины</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-img" style="background-image: url('images/temp/img04.jpg');"></div>
+						<div class="item-set">
+							<div class="select-wrap select--num">
+								<select class="select">
+									<option selected value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+								</select>
+							</div>
+							<button type="button" class="remove btn btn--transparent btn--event"></button>
+						</div>
+						<div class="item-holder">
+							<div class="item-wrap">
+								<div class="item-cat">Напиток</div>
+								<div class="item-name">Липонад</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+		    </div>
+		    <div class="modal-content">
+		    	<div class="modal-order-btn-row">
+		    		<div class="total-wrap">
+		    			<div class="title">Всего к оплате</div>
+		    			<div class="price">572 руб.</div>
+		    		</div>
+		    		<div class="btn-holder">
+		    			<button type="button" class="btn">Оформить заказ</button>
+		    		</div>
+		    	</div>
+		    </div>
+		  </form>
+		</div>
+		<div class="modal modal--popup modal--profile fade" id="popup-enter">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal"></button>
+				<div class="modal-content">
+					<div class="enter-btn">
+						<div class="title">Личный кабинет</div>
+						<button class="btn" data-toggle="modal" data-target="#popup-login">Войти</button>
+						<button class="btn" data-toggle="modal" data-target="#popup-registration">Зарегистрироваться</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<form action="#" class="modal fade" id="popup-login">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal"></button>
+				<div class="modal-content">
+					<div class="popup-notification-wrapper popup-notification-wrapper--enter">
+						<h3>Вход</h3>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Email">
+									<span class="error-note">Поле заполненно не верно</span>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="password" class="form-control" placeholder="Пароль">
+									<span class="error-note">Поле заполненно не верно</span>
+								</div>
+							</div>
+						</div>
+						<div class="enter-note"><a class="forgot" href="" data-toggle="modal" data-target="#popup-forgot">Забыли пароль?</a></div>
+						<button class="btn" type="button" data-dismiss="modal">Войти</button>
+						<div class="enter-note">или войдите с помощью</div>
+						<ul class="network-list">
+							<li><a class="vk" href=""></a></li>
+							<li><a class="fb" href=""></a></li>
+							<li><a class="gp" href=""></a></li>
+							<li><a class="tw" href=""></a></li>
+						</ul>
+						<div class="change-row">
+							Впервые тут? <a href="" data-toggle="modal" data-target="#popup-registration">Регистрация</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action="#" class="modal fade" id="popup-registration">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal"></button>
+				<div class="modal-content">
+					<div class="popup-notification-wrapper popup-notification-wrapper--enter">
+						<h3>Регистрация</h3>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Email">
+									<span class="error-note">Поле заполненно не верно</span>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="password" class="form-control" placeholder="Пароль">
+									<span class="error-note">Поле заполненно не верно</span>
+								</div>
+							</div>
+						</div>
+						<div class="enter-note">&nbsp;</div>
+						<button class="btn" type="button" data-dismiss="modal">Зарегистрироваться</button>
+						<div class="enter-note">или войдите с помощью</div>
+						<ul class="network-list">
+							<li><a class="vk" href=""></a></li>
+							<li><a class="fb" href=""></a></li>
+							<li><a class="gp" href=""></a></li>
+							<li><a class="tw" href=""></a></li>
+						</ul>
+						<div class="change-row">
+							Уже есть аккаунт? <a href="" data-toggle="modal" data-target="#popup-login">Войти</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action="#" class="modal fade" id="popup-forgot">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal"></button>
+				<div class="modal-content">
+					<div class="popup-notification-wrapper popup-notification-wrapper--enter">
+						<h3>Восстановление пароля</h3>
+						<p class="text-left colorBreadcrumbs">Введите электронный адрес, который вы указали при регистрации</p>
+						<br><br>
+						<div class="row">
+							<div class="col-md-12">
+								<input type="text" class="form-control" placeholder="Email">
+								<span class="error-note">Поле заполненно не верно</span>
+							</div>
+						</div>
+						<button class="btn" type="button" data-dismiss="modal">Восстановить</button>
+						<br><br>
+					</div>
+				</div>
+			</div>
+		</form>
+		<div class="modal fade" id="popup-log-out">
+		  <div class="modal-dialog">
+		  	<button type="button" class="close" data-dismiss="modal"></button>
+		    <div class="modal-content">
+				<div class="popup-notification-wrapper">
+					<h3>Выход</h3>
+					<p>Вы действительно хотите выйти из профиля?</p>
+					<button class="btn" type="button" data-dismiss="modal">Выйти</button>
+				</div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="popup-profile-remove">
+		  <div class="modal-dialog">
+		  	<button type="button" class="close" data-dismiss="modal"></button>
+		    <div class="modal-content">
+				<div class="popup-notification-wrapper">
+					<h3>Удалить профиль</h3>
+					<p>Вы действительно хотите удалить профиль?</p>
+					<button class="btn" type="button" data-dismiss="modal">Удалить</button>
+				</div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="popup-network">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal"></button>
+				<div class="modal-content">
+					<div class="popup-notification-wrapper popup-notification-wrapper--enter">
+						<h3>добавить социальную сеть</h3>
+						<ul class="network-list network-list--active">
+							<li><a class="vk" href=""></a></li>
+							<li><a class="fb" href=""></a></li>
+							<li><a class="gp" href=""></a></li>
+							<li><a class="tw" href=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<!--build:js js/main.min.js -->
+		<script type="text/javascript" src="bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/core.js"></script>
+		<script type="text/javascript" src="js/scrollbar.js"></script>
+		<script type="text/javascript" src="js/touch.js"></script>
+		<script type="text/javascript" src="js/dropdown.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- endbuild -->
+	</body>
+</html>

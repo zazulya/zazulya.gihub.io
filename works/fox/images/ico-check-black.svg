@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 59</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Руководство" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GUI/Elements" transform="translate(-416.000000, -824.000000)">
+            <g id="Group-30-Copy-3" transform="translate(400.000000, 816.000000)">
+                <g id="Group-59" transform="translate(16.000000, 8.000000)">
+                    <circle id="Oval-17" fill="#231F20" cx="12" cy="12" r="12"></circle>
+                    <path d="M8.70710678,12.2928932 C8.31658249,11.9023689 7.68341751,11.9023689 7.29289322,12.2928932 C6.90236893,12.6834175 6.90236893,13.3165825 7.29289322,13.7071068 L9.29289322,15.7071068 C9.68341751,16.0976311 10.3165825,16.0976311 10.7071068,15.7071068 L16.7071068,9.70710678 C17.0976311,9.31658249 17.0976311,8.68341751 16.7071068,8.29289322 C16.3165825,7.90236893 15.6834175,7.90236893 15.2928932,8.29289322 L10,13.5 L8.70710678,12.2928932 Z" id="Path-7" fill="#FCC91C" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

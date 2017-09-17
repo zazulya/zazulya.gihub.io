@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="34px" viewBox="0 0 43 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 58</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Руководство" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GUI/Elements" transform="translate(-111.000000, -1077.000000)">
+            <g id="Group-30-Copy-2" transform="translate(96.000000, 1058.000000)">
+                <g id="Group-58" transform="translate(15.000000, 19.000000)">
+                    <path d="M4.00761114,34 C0.689699127,34 -0.578494989,31.7134067 1.168121,28.903849 L16.7828882,3.78637028 C19.1129104,0.0383614667 22.9247258,0.0278652906 25.2912067,3.7540941 L41.2819414,28.9328886 C43.0592261,31.7313769 41.8159825,34 38.4923889,34 L4.00761114,34 Z" id="Path-16" fill="#FFFFFF"></path>
+                    <path d="M19,12.0027601 C19,10.8966663 19.8877296,10 21,10 C22.1045695,10 23,10.8935426 23,12.0027601 L23,20.9972399 C23,22.1033337 22.1122704,23 21,23 C19.8954305,23 19,22.1064574 19,20.9972399 L19,12.0027601 Z M19,27 C19,25.8954305 19.8877296,25 21,25 C22.1045695,25 23,25.8877296 23,27 C23,28.1045695 22.1122704,29 21,29 C19.8954305,29 19,28.1122704 19,27 Z" id="Combined-Shape" fill="#231F20"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

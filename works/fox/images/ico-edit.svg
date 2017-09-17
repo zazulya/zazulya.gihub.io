@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Profile/wallet_768">
+            <g id="Group">
+                <g id="Group-5">
+                    <g id="Group-2">
+                        <g id="Rectangle">
+                            <rect x="0" y="0" width="40" height="40" rx="2"></rect>
+                            <path d="M13,26.5857374 L14,22.5857374 L17,25.5857374 L13,26.5857374 Z M15,21.5857374 L21,15.5857374 L24,18.5857374 L18,24.5857374 L15,21.5857374 Z M22,14.5857374 L23.2892435,13.2964939 C23.6875,12.8982374 24.3183068,12.9040442 24.7109581,13.2966955 L26.2890419,14.8747793 C26.6789474,15.2646848 26.6817835,15.9039539 26.2892435,16.2964939 L25,17.5857374 L22,14.5857374 Z" id="Path-4" fill="#231F20" fill-rule="evenodd"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

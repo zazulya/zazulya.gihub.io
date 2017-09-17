@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="21px" viewBox="0 0 24 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M28.94808,14 C26.47104,14 24.90744,15.2067889 24,16.2980162 C23.09256,15.2067889 21.5292,14 19.0512,14 C14.8332,14 12,17.9115527 12,21.5645936 C12,26.8825851 22.20432,34.009919 23.36784,34.8049149 C23.5584,34.9348915 23.7792,35 24,35 C24.2208,35 24.4416,34.9348915 24.63216,34.8049149 C25.79568,34.009919 36,26.8825851 36,21.5645936 C36,17.9115527 33.16632,14 28.94808,14 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24" height="21" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#231F20" id="Menu/menu_1440" transform="translate(-476.000000, -727.000000)" stroke="#231F20" stroke-width="4">
+            <g id="Group" transform="translate(200.000000, 248.000000)">
+                <g id="Group-2" transform="translate(264.000000, 465.000000)">
+                    <use id="Path" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

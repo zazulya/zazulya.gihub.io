@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=no"/>
+		<title>FLAGMAN</title>
+		<link rel="icon" href="images/favicon.png"/>
+		<link rel="stylesheet" href="css/all.css" type="text/css"/>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div class="header-fixed">
+					<div class="center">
+						<span class="logo"></span>
+						<div class="header-holder">
+							<ul class="nav">
+								<li><a href="">О компании</a></li>
+								<li><a href="">Продукция</a></li>
+								<li><a href="">Интернет-магазин</a></li>
+								<li><a href="">Новости</a></li>
+								<li class="active"><a href="">Контакты</a></li>
+							</ul>
+							<form class="header-search" action="#">
+								<div class="header-search-wrap">
+									<input placeholder="Введите свой адрес" class="header-search-input" type="text">
+									<button class="header-search-btn opener-search-wrap" type="button"></button>
+								</div>
+							</form>
+							<ul class="lang-list">
+								<li class="active"><a href="">Ru</a></li>
+								<li><a href="">UA</a></li>
+								<li><a href="">EN</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="mb-sidebar-fixed">
+					<div class="mb-opener-sidebar"><span></span></div>
+					<div class="mb-sidebar-scroll">
+						<div class="mb-sidebar-inner">
+							<form class="header-search" action="#">
+								<div class="header-search-wrap">
+									<input placeholder="Введите свой адрес" class="header-search-input" type="text">
+									<button class="header-search-btn" type="button"></button>
+								</div>
+							</form>
+							<ul class="nav">
+								<li><a href="">О компании</a></li>
+								<li>
+									<a href="">Продукция</a>
+									<div class="sub-menu-wrap">
+										<span class="cat-sub-menu">Match fishing</span>
+										<ul class="sub-menu">
+											<li><a href="">Удилища</a></li>
+											<li><a href="">Катушки</a></li>
+											<li><a href="">Кормушки</a></li>
+											<li><a href="">Прикормка</a></li>
+											<li><a href="">Снаряжение</a></li>
+											<li><a href="">Экипировка</a></li>
+											<li><a href="">Ведра, Сита</a></li>
+										</ul>
+									</div>
+									<div class="sub-menu-wrap">
+										<span class="cat-sub-menu">spinning fishing</span>
+										<ul class="sub-menu">
+											<li><a href="">Удилища</a></li>
+											<li><a href="">Катушки</a></li>
+											<li><a href="">Кормушки</a></li>
+											<li><a href="">Прикормка</a></li>
+											<li><a href="">Снаряжение</a></li>
+											<li><a href="">Экипировка</a></li>
+											<li><a href="">Ведра, Сита</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="">Интернет-магазин</a></li>
+								<li><a href="">Новости</a></li>
+								<li class="active"><a href="">Контакты</a></li>
+							</ul>
+							<ul class="lang-list">
+								<li class="active"><a href="">Ru</a></li>
+								<li><a href="">UA</a></li>
+								<li><a href="">EN</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="overlay"></div>
+			</div>
+			<div id="main" class="main">
+				<div class="bg-inner-page">
+					<div class="top-bg"></div>
+					<div class="bg" style="background-image: url(images/bg-inner-body08.jpg);"></div>
+					<div class="bottom-bg"></div>
+				</div>
+				<div class="main-inner-wrap">
+					<div class="center">
+						<ul class="bread-crumbs wow">
+							<li><a href="">Главная</a></li>
+							<li>Контакты</li>
+						</ul>
+						<h1 class="wow">Магазины</h1>
+						<form class="form-contact wow" action="#">
+							<div class="form-contact-search">
+								<div class="title">Укажите свое местоположение</div>
+								<div class="holder"><input type="text"></div>
+							</div>
+							<div class="form-contact-radius">
+								<div class="title">Радиус поиска</div>
+								<div class="holder">
+									<div class="select-wrap">
+										<select>
+											<option selected value="10">10 км</option>
+											<option value="12">12 км</option>
+											<option value="40">40 км</option>
+											<option value="120">120 км</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<button class="btn" type="submit"><span>Найти</span></button>
+						</form>
+						<div class="wow">
+							<div class="map-wrapper map-contact-wrapper">
+								<div id="map" class="map"></div>
+							</div>
+						</div>
+						<div class="table-wrap wow">
+							<table>
+								<tr class="mb-hidden">
+									<th>Магазин</th>
+									<th>Адрес</th>
+									<th>Режим работы</th>
+									<th>Телефон</th>
+								</tr>
+								<tr>
+									<td><span class="title mb-visible">Магазин</span> <span class="bold">Магазин «FLAGMAN» Торговый Дом «БАРКАС»</span></td>
+									<td><span class="title mb-visible">Адрес</span> <span class="address">г. Киев, <br/> ул. Кирилловская, 160</span></td>
+									<td><span class="title mb-visible">Режим работы</span> <span class="bold nowrap">Пн-Пт: с 10-00 до 19-00 <br/> Сб: с 10-00 до 18-00 <br/> Вс: с 10-00 до 16-00</span></td>
+									<td><span class="title mb-visible">Телефон</span> <span class="address nowrap">(044) 492-05-58</span></td>
+								</tr>
+								<tr>
+									<td><span class="title mb-visible">Магазин</span> <span class="bold">Магазин «FLAGMAN»</span></td>
+									<td><span class="title mb-visible">Адрес</span> <span class="address">г. Киев, <br/> бул. Перова, 38/1</span></td>
+									<td><span class="title mb-visible">Режим работы</span> <span class="bold nowrap">Пн-Пт: с 10-00 до 19-00 <br/> Вс: с 9-00 до 16-00</span></td>
+									<td><span class="title mb-visible">Телефон</span> <span class="address nowrap">(044) 542-77-07 <br> (044) 540-42-42</span></td>
+								</tr>
+								<tr>
+									<td><span class="title mb-visible">Магазин</span> <span class="bold">Магазин «FLAGMAN»</span></td>
+									<td><span class="title mb-visible">Адрес</span> <span class="address">г. Киев, <br/> вул. Михайла Гришка, 4А</span></td>
+									<td><span class="title mb-visible">Режим работы</span> <span class="bold nowrap">Пн-Пт: с 10-00 до 19-00 <br/> Вс: с 9-00 до 16-00</span></td>
+									<td><span class="title mb-visible">Телефон</span> <span class="address nowrap">(098) 103-62-41 <br> (044) 575-88-61</span></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div class="center wow">
+					<div class="footer-nav-col">
+						<div class="footer-nav">
+							<div class="title">Match fishing</div>
+							<ul class="footer-nav-list">
+								<li><a href="">Удилища</a></li>
+								<li><a href="">Катушки</a></li>
+								<li><a href="">Прикормка </a></li>
+								<li><a href="">Кормушки</a></li>
+								<li><a href="">Ведра/сита</a></li>
+								<li><a href="">Снаряжение</a></li>
+								<li><a href="">Экипировка</a></li>
+							</ul>
+						</div>
+						<div class="footer-nav">
+							<div class="title">Spinning fishing</div>
+							<ul class="footer-nav-list">
+								<li><a href="">Удилища</a></li>
+								<li><a href="">Катушки</a></li>
+								<li><a href="">Приманки </a></li>
+								<li><a href="">Разгрузки</a></li>
+								<li><a href="">Аксессуары</a></li>
+							</ul>
+						</div>
+						<div class="footer-nav">
+							<div class="title">Компания</div>
+							<ul class="footer-nav-list">
+								<li><a href="">История компании</a></li>
+								<li><a href="">Миссия и ценности</a></li>
+								<li><a href="">Карьера</a></li>
+							</ul>
+						</div>
+						<div class="footer-nav">
+							<div class="title">Контакты</div>
+							<ul class="footer-nav-list">
+								<li><a href="">Магазины (где купить)</a></li>
+								<li><a href="">Сервисный центр</a></li>
+								<li><a href="">Офис</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-block">
+					    <div class="row">
+					    	<a class="btn" href=""><span>Интернет-магазин</span></a>
+					    	<ul class="network-list">
+					    		<li><a class="fb" href=""></a></li>
+					    		<li><a class="ub" href=""></a></li>
+					    	</ul>
+					    </div>
+						<div class="copyright-wrap">
+							<span class="copyright">2017 © Flagman</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/skrollr.min.js"></script>
+		<script type="text/javascript" src="js/wow.min.js"></script>
+		<script type="text/javascript" src="js/light-scroll.min.js"></script>
+		<link 	type="text/css"        href="js/fancybox-master/dist/jquery.fancybox.min.css" rel="stylesheet"/>
+		<script type="text/javascript" src="js/fancybox-master/dist/jquery.fancybox.min.js"></script>
+		<script type="text/javascript" src="js/fancybox-master/src/js/core.js"></script>
+		<script type="text/javascript" src="js/fancybox-master/src/js/media.js"></script>
+		<script type="text/javascript" src="js/jquery.main.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+        <script type="text/javascript">
+            google.maps.event.addDomListener(window, 'load', init);
+            function init() {
+            	var zoom = 16;
+            	var locations = [
+			      ['магазин1', 50.4021698,30.3922659],
+			      ['магазин2', 50.4036698,30.3932659],
+			      ['магазин3', 50.4029698,30.3902659]
+			    ];
+				viewMap();
+				function viewMap(){
+					var mapOptions = {
+			            zoom: zoom,
+			            center: new google.maps.LatLng(50.4036698,30.3932659),
+			            scrollwheel: false,
+			            zoomControl: false,
+						scaleControl: false,
+						mapTypeControl: false,
+						streetViewControl: false,
+						backgroundColor: 'none',
+			            styles:[{"elementType":"geometry","stylers":[{"color":"#161616"}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#4b4b4b"}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#757575"}]},{"featureType":"administrative.country","elementType":"labels.text.fill","stylers":[{"color":"#2f2f2f"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#2f2f2f"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#2f2f2f"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#2f2f2f"}]},{"featureType":"poi.park","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"featureType":"poi.park","elementType":"labels.text.stroke","stylers":[{"color":"#1b1b1b"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#1d242a"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#4b4b4b"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#1d242a"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#1d242a"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry","stylers":[{"color":"#4e4e4e"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"featureType":"transit","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#000000"}]}]
+			        };
+	                var mapElement = document.getElementById('map');
+	                var map = new google.maps.Map(mapElement, mapOptions);
+	                var infowindow = new google.maps.InfoWindow();
+	                var marker, i;
+	                var image = {
+	                	url: 'images/marker.png'
+	                };
+	                for (i = 0; i < locations.length; i++) {  
+						marker = new google.maps.Marker({
+							position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+							icon: image,
+							map: map
+						});
+						google.maps.event.addListener(marker, 'click', (function(marker, i) {
+						return function() {
+							  infowindow.setContent(locations[i][0]);
+							  infowindow.open(map, marker);
+							}
+						})(marker, i));
+					}
+				}
+            }
+        </script>
+	</body>
+</html>
